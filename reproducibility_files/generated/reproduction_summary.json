@@ -349,8 +349,8 @@
   "environment": {
     "source_artifact_commit": "38a82d59474ea131747aff7b1977bb0393fd2af4",
     "release_tree_note": "PMechDB payload-redacted publication tree; identify by the public commit cited in the manuscript",
-    "python_version": "3.12.13",
-    "python_executable": "/Users/zarama9514/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "python_version": "3.14.3",
+    "python_executable": "/Users/zarama9514/python_projects/innopolis/submission_ai/SynthLadder_local_review_commit_2026-08-14/.venv/bin/python",
     "dependency_lockfile": "uv.lock",
     "dependency_lockfile_sha256": "e90967f5f9f6a598a7605e93b7e7df2bd2f8459893933d5f832a17d13c5f5bb0",
     "reproduction_command": "uv run --project /path/to/SynthLadder --frozen python reproducibility_files/reproduce_scores.py --repo /path/to/SynthLadder --outdir reproducibility_files/generated"
