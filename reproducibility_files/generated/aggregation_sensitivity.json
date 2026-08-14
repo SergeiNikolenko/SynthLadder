@@ -1,0 +1,128 @@
+[
+  {
+    "aggregation": "SuiteMacro",
+    "rank": 1,
+    "system_configuration": "GPT-5.4",
+    "score_percent": 68.165
+  },
+  {
+    "aggregation": "SuiteMacro",
+    "rank": 2,
+    "system_configuration": "GPT-5.4-mini",
+    "score_percent": 66.099
+  },
+  {
+    "aggregation": "SuiteMacro",
+    "rank": 3,
+    "system_configuration": "Gemini 3.1 Pro",
+    "score_percent": 59.229
+  },
+  {
+    "aggregation": "SuiteMacro",
+    "rank": 4,
+    "system_configuration": "GLM-5.1",
+    "score_percent": 56.911
+  },
+  {
+    "aggregation": "SuiteMacro",
+    "rank": 5,
+    "system_configuration": "Gemini 3 Flash",
+    "score_percent": 50.868
+  },
+  {
+    "aggregation": "SuiteMacro",
+    "rank": 6,
+    "system_configuration": "Qwen3.6-35B-A3B",
+    "score_percent": 26.814
+  },
+  {
+    "aggregation": "SuiteMacro",
+    "rank": 7,
+    "system_configuration": "GPT-OSS",
+    "score_percent": 12.375
+  },
+  {
+    "aggregation": "Micro773",
+    "rank": 1,
+    "system_configuration": "GPT-5.4",
+    "score_percent": 68.577
+  },
+  {
+    "aggregation": "Micro773",
+    "rank": 2,
+    "system_configuration": "GPT-5.4-mini",
+    "score_percent": 67.814
+  },
+  {
+    "aggregation": "Micro773",
+    "rank": 3,
+    "system_configuration": "Gemini 3.1 Pro",
+    "score_percent": 60.388
+  },
+  {
+    "aggregation": "Micro773",
+    "rank": 4,
+    "system_configuration": "GLM-5.1",
+    "score_percent": 57.503
+  },
+  {
+    "aggregation": "Micro773",
+    "rank": 5,
+    "system_configuration": "Gemini 3 Flash",
+    "score_percent": 50.789
+  },
+  {
+    "aggregation": "Micro773",
+    "rank": 6,
+    "system_configuration": "Qwen3.6-35B-A3B",
+    "score_percent": 23.713
+  },
+  {
+    "aggregation": "Micro773",
+    "rank": 7,
+    "system_configuration": "GPT-OSS",
+    "score_percent": 12.549
+  },
+  {
+    "aggregation": "SubtypeMacro6",
+    "rank": 1,
+    "system_configuration": "GPT-5.4-mini",
+    "score_percent": 71.262
+  },
+  {
+    "aggregation": "SubtypeMacro6",
+    "rank": 2,
+    "system_configuration": "GPT-5.4",
+    "score_percent": 70.827
+  },
+  {
+    "aggregation": "SubtypeMacro6",
+    "rank": 3,
+    "system_configuration": "Gemini 3.1 Pro",
+    "score_percent": 63.291
+  },
+  {
+    "aggregation": "SubtypeMacro6",
+    "rank": 4,
+    "system_configuration": "GLM-5.1",
+    "score_percent": 60.577
+  },
+  {
+    "aggregation": "SubtypeMacro6",
+    "rank": 5,
+    "system_configuration": "Gemini 3 Flash",
+    "score_percent": 55.905
+  },
+  {
+    "aggregation": "SubtypeMacro6",
+    "rank": 6,
+    "system_configuration": "Qwen3.6-35B-A3B",
+    "score_percent": 34.729
+  },
+  {
+    "aggregation": "SubtypeMacro6",
+    "rank": 7,
+    "system_configuration": "GPT-OSS",
+    "score_percent": 16.572
+  }
+]

@@ -1,0 +1,440 @@
+from __future__ import annotations
+
+import json
+import os
+import re
+from typing import Any, Dict, Iterable, List
+
+
+STUDENT_SYSTEM_PROMPT = (
+    "You solve chemistry benchmark questions accurately and compactly. "
+    "Use only the question content and allowed tool outputs. "
+    "Prefer the shortest final answer that fully satisfies the contract."
+)
+
+STUDENT_TOOL_RULES = (
+    "Tool rules:\n"
+    "- Use tools only when they materially improve correctness or validation.\n"
+    "- Prefer zero-tool answers when the chemistry answer is already clear.\n"
+    "- Use chem_python_tool only for chemistry validation, RDKit canonicalization, molecular formula checks, or quick reaction-related calculations.\n"
+    "- Use workspace_list_tool and workspace_read_tool to inspect uploaded code or benchmark files when local repository context materially helps.\n"
+    "- Use shell_exec_tool or uv_run_tool only for short sandbox-local inspection, validation, or package setup commands.\n"
+    "- Use safe_http_get_tool only when the question explicitly requires current external information. Benchmark questions almost never need internet access.\n"
+    "- Do not use tools to look for hidden metadata, hidden labels, hidden ids, or gold answers.\n"
+    "- Never browse just to confirm chemistry that can be answered from the prompt.\n"
+)
+
+TOOL_DECISION_RULES = (
+    "Tool decision order:\n"
+    "- If the answer is already clear from the question, answer directly with no tool calls.\n"
+    "- If you need chemistry validation, prefer chem_python_tool before shell_exec_tool or uv_run_tool.\n"
+    "- If you need local repository context, use workspace_list_tool and workspace_read_tool before shell_exec_tool.\n"
+    "- Use shell_exec_tool or uv_run_tool only for short, targeted local inspection or validation.\n"
+    "- Use workspace_write_tool only when the task explicitly requires creating or editing a file.\n"
+    "- Use safe_http_get_tool only when current external information is explicitly necessary.\n"
+)
+
+STUDENT_COMPLETION_RULES = (
+    "Completion criteria:\n"
+    "- The final answer must match the requested answer_type format exactly.\n"
+    "- Do not output markdown fences, multiple alternative answers, or hidden reasoning notes.\n"
+    "- Keep the final answer as short as possible while staying complete.\n"
+    "- Use one line when possible; use multiple lines only when the contract explicitly needs them.\n"
+    "- Before finalizing, verify that the answer is grounded in the question text and tool outputs only.\n"
+    "- Before finalizing, check that the answer is at the correct planning depth for the task level."
+)
+
+STUDENT_CODE_AGENT_RULES = (
+    "Code-agent execution rules:\n"
+    "- If no tool is needed, call final_answer(...) immediately instead of writing exploratory code.\n"
+    "- Never place raw chemistry answers directly in executable code.\n"
+    "- SMILES strings, precursor lists, reaction labels, and JSON answers must be passed as quoted strings to final_answer(...).\n"
+    "- Do not emit bare chemical formulas, SMILES, or natural-language answers as Python code.\n"
+    "- Bad: CCO.CN or precursor_a + precursor_b\n"
+    '- Good: final_answer("CCO.CN")\n'
+    '- Good: final_answer("precursor_a + precursor_b")\n'
+    '- Good: final_answer(\'Answer: {"steps":[...]}\')'
+)
+
+STUDENT_SGR_SYSTEM_PROMPT = (
+    "You must build a hidden structured SGR reasoning object before producing the benchmark answer. "
+    "The SGR object is intermediate reasoning only and must stay separate from the final answer."
+)
+
+STUDENT_SGR_COMPLETION_RULES = (
+    "SGR completion rules:\n"
+    "- Return exactly one JSON object and no extra narrative text.\n"
+    "- Fill the schema using only question content and allowed tool outputs.\n"
+    "- Complete the contract_check block before final_answer.\n"
+    "- The final benchmark answer will be generated later in a separate step.\n"
+    "- Do not omit required fields and do not replace structured fields with prose."
+)
+
+DEFAULT_FORMAT_INSTRUCTION = (
+    "Start the response with 'Answer: <machine-readable answer>'. "
+    "If needed, add a very short explanation after that line."
+)
+
+LEVEL_CONTRACTS = {
+    "a": (
+        "Level A contract:\n"
+        "- Solve only the local reaction-understanding task.\n"
+        "- If reaction center is requested, include the full local event, not a partial subset.\n"
+        "- If mechanistic class is requested, give one best-fitting class label only.\n"
+        "- Do not replace the requested local transformation with a broader reaction narrative."
+    ),
+    "b": (
+        "Level B contract:\n"
+        "- Propose immediate precursors for one retrosynthetic step only.\n"
+        "- Do not jump to earlier building blocks or a longer route.\n"
+        "- State the main disconnection explicitly.\n"
+        "- Prefer the most direct target-forming precursor set over alternative strategic routes."
+    ),
+    "c": (
+        "Level C contract:\n"
+        "- Provide a complete connected multistep route.\n"
+        "- Include key intermediates or products for each step.\n"
+        "- Do not give only a retrosynthetic idea or disconnected route fragments.\n"
+        "- Ensure the final step reaches the exact target."
+    ),
+}
+
+LEVEL_SELF_CHECKS = {
+    "a": (
+        "Level A self-check:\n"
+        "- Did I identify the exact local transformation rather than a broader story?\n"
+        "- If reaction center is requested, did I include all relevant atoms or bond changes?\n"
+        "- If a class label is requested, did I choose one best label?"
+    ),
+    "b": (
+        "Level B self-check:\n"
+        "- Are these immediate precursors rather than earlier retrosynthetic building blocks?\n"
+        "- Did I state the intended bond disconnection?\n"
+        "- Did I avoid giving a full route or multiple unrelated alternatives?"
+    ),
+    "c": (
+        "Level C self-check:\n"
+        "- Do the steps connect into a coherent route?\n"
+        "- Does each step have plausible inputs and an intermediate or product?\n"
+        "- Does the final step reach the exact target?"
+    ),
+}
+
+FORMAT_INSTRUCTIONS = {
+    "single_choice": (
+        "Return exactly one option label (example: A). "
+        "Do not add explanation text, punctuation-only wrappers, or multiple options."
+    ),
+    "multiple_choice": (
+        "Return only option labels separated by '; ' (example: A; D). "
+        "Do not add commentary or duplicate labels."
+    ),
+    "ordering": (
+        "Return only the ordered labels or numbers separated by '; ' (example: 4; 2; 3; 1). "
+        "Do not explain the order."
+    ),
+    "numeric": (
+        "Return only the numeric answer unless the question explicitly requires a unit. "
+        "Do not include derivation steps in the final answer."
+    ),
+    "msms_structure_prediction": (
+        "Return exactly one SMILES string on a single line. "
+        "Do not wrap it in code, markdown, or prose."
+    ),
+    "structure": (
+        "Return exactly one SMILES string on a single line. "
+        "Do not wrap it in code, markdown, or prose."
+    ),
+    "text": (
+        "Return a compact machine-readable answer. "
+        "For single-step retrosynthesis tasks, use exactly these lines when applicable: "
+        "'Answer: <immediate precursor 1>; <immediate precursor 2>' and "
+        "'Disconnection: <very short bond-change description>'. "
+        "Do not give a longer route, earlier building blocks, or meta commentary."
+    ),
+    "reaction_description": (
+        "Return a compact machine-readable chemistry answer. "
+        "Use only the exact local transformation information requested. "
+        "Do not replace a reaction-center or mechanistic-class answer with a broad reaction summary."
+    ),
+    "full_synthesis": (
+        "Return a compact structured route with connected steps. "
+        "Preferred format: 'Answer: Step 1: ... | Step 2: ... | Step 3: ...'. "
+        "Include key intermediates and the final target-reaching step. "
+        "Do not answer with only a high-level retrosynthetic idea."
+    ),
+}
+
+PROCEDURE_TEXT_TASK_SUBTYPES = {
+    "reagent_role_identification",
+    "condition_role_identification",
+}
+
+MAX_PROCEDURE_EXCERPT_CHARS = 4000
+
+
+def _env_truthy(name: str) -> bool:
+    value = (os.getenv(name) or "").strip().lower()
+    return value in {"1", "true", "yes", "on"}
+
+
+def _format_instruction(answer_type: str) -> str:
+    normalized = (answer_type or "").strip().lower()
+    return FORMAT_INSTRUCTIONS.get(normalized, DEFAULT_FORMAT_INSTRUCTION)
+
+
+def _level_instruction(level: str) -> str:
+    normalized = (level or "").strip().lower()
+    return LEVEL_CONTRACTS.get(normalized, "Level contract: match the requested planning depth exactly.")
+
+
+def _level_self_check(level: str) -> str:
+    normalized = (level or "").strip().lower()
+    return LEVEL_SELF_CHECKS.get(normalized, "Self-check: verify planning depth, format, and exact target match before finalizing.")
+
+
+def _format_tool_map(available_tools: Iterable[str]) -> str:
+    names = {str(name).strip() for name in available_tools if str(name).strip()}
+    if not names:
+        return "Active tools: none."
+
+    groups: List[str] = []
+    chemistry = [name for name in ["chem_python_tool"] if name in names]
+    workspace = [name for name in ["workspace_list_tool", "workspace_read_tool", "workspace_write_tool"] if name in names]
+    execution = [name for name in ["shell_exec_tool", "uv_run_tool"] if name in names]
+    network = [name for name in ["safe_http_get_tool"] if name in names]
+
+    if chemistry:
+        groups.append(f"Chemistry validation: {', '.join(chemistry)}")
+    if workspace:
+        groups.append(f"Workspace inspection/editing: {', '.join(workspace)}")
+    if execution:
+        groups.append(f"Local execution: {', '.join(execution)}")
+    if network:
+        groups.append(f"Network access: {', '.join(network)}")
+
+    unused = sorted(names.difference({
+        *chemistry,
+        *workspace,
+        *execution,
+        *network,
+    }))
+    if unused:
+        groups.append(f"Other tools: {', '.join(unused)}")
+
+    return "\n".join(f"- {group}" for group in groups)
+
+
+def _format_sgr_context(sgr_context: Dict[str, Any] | None) -> str:
+    if not isinstance(sgr_context, dict) or not sgr_context:
+        return ""
+    return json.dumps(sgr_context, ensure_ascii=False, indent=2)
+
+
+def _extract_procedure_text(question: Dict[str, Any]) -> str:
+    for key in ("benchmark_v3_input", "input"):
+        value = question.get(key)
+        if isinstance(value, dict):
+            text = str(value.get("procedure_text") or "").strip()
+            if text:
+                return text
+    return ""
+
+
+def _procedure_excerpt(text: str, max_chars: int = MAX_PROCEDURE_EXCERPT_CHARS) -> str:
+    normalized = str(text or "").strip()
+    if not normalized:
+        return ""
+
+    for pattern in (
+        r"\nExample\s+\d+\b",
+        r"\nEXAMPLES\b",
+        r"\nPreparation of\b",
+    ):
+        match = re.search(pattern, normalized)
+        if match:
+            normalized = normalized[match.start() :].lstrip()
+            break
+
+    if len(normalized) <= max_chars:
+        return normalized
+
+    head = normalized[: max_chars - len("\n...[truncated]...\n")]
+    return head.rstrip() + "\n...[truncated]..."
+
+
+def _rewrite_long_procedure_question(question: Dict[str, Any], question_text: str) -> str:
+    task_subtype = str(question.get("task_subtype") or "").strip().lower()
+    if task_subtype not in PROCEDURE_TEXT_TASK_SUBTYPES:
+        return question_text
+
+    if len(question_text) <= MAX_PROCEDURE_EXCERPT_CHARS + 4000:
+        return question_text
+
+    excerpt_source = _extract_procedure_text(question) or question_text
+    excerpt = _procedure_excerpt(excerpt_source)
+    if not excerpt:
+        return question_text
+
+    level = str(question.get("level") or "").strip()
+    answer_type = str(question.get("answer_type") or "").strip()
+    expected_schema = str(question.get("expected_output_schema") or "role_mapping").strip()
+    return (
+        "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\n"
+        "Use the structured benchmark context below as the full task specification.\n"
+        "The procedure text was truncated to the most relevant experimental excerpt to fit model limits.\n"
+        "Return the best chemistry answer grounded only in this context.\n\n"
+        "<benchmark_context>\n"
+        "{\n"
+        f'  "level": "{level}",\n'
+        f'  "task_subtype": "{task_subtype}",\n'
+        f'  "answer_type": "{answer_type}",\n'
+        f'  "expected_output_schema": "{expected_schema}",\n'
+        '  "input": {\n'
+        f'    "procedure_text": {json.dumps(excerpt, ensure_ascii=False)}\n'
+        "  }\n"
+        "}\n"
+        "</benchmark_context>"
+    )
+
+
+def _extract_prompt_context(
+    question: Dict[str, Any],
+    runtime_context: Dict[str, Any] | None,
+) -> Dict[str, Any]:
+    context = runtime_context or {}
+    question_text = _rewrite_long_procedure_question(question, str(question.get("question_text", "") or ""))
+    return {
+        "level": str(question.get("level", "") or ""),
+        "answer_type": str(question.get("answer_type", "") or ""),
+        "task_subtype": str(question.get("task_subtype", "") or ""),
+        "question_text": question_text,
+        "tools_profile": str(context.get("tools_profile") or "minimal"),
+        "workspace_root": str(context.get("workspace_root") or "/sandbox/workspace"),
+        "available_tools": list(context.get("available_tools") or []),
+    }
+
+
+def build_student_sgr_task(
+    question: Dict[str, Any],
+    runtime_context: Dict[str, Any] | None = None,
+    schema_spec: Any | None = None,
+) -> str:
+    prompt_context = _extract_prompt_context(question, runtime_context)
+    runtime_context = runtime_context or {}
+    schema_name = str(getattr(schema_spec, "schema_name", "") or runtime_context.get("sgr_schema_name") or "sgr_schema")
+    schema_template = getattr(schema_spec, "template", None) or {}
+    schema_lines = runtime_context.get("sgr_schema_lines") or ""
+    if not schema_lines and schema_template:
+        schema_lines = json.dumps(schema_template, ensure_ascii=False, indent=2)
+    if _env_truthy("SPECTRALIX_COMPACT_SGR_PROMPT"):
+        return (
+            "Return exactly one JSON object and nothing else.\n"
+            "Fill every required field from the chemistry question only.\n"
+            "Do not add markdown, explanations, or prose outside the JSON.\n"
+            f"Level: {prompt_context['level']}\n"
+            f"Answer type: {prompt_context['answer_type']}\n"
+            f"Task subtype: {prompt_context['task_subtype']}\n"
+            f"Schema name: {schema_name}\n\n"
+            "Schema:\n"
+            f"{schema_lines or '{}'}\n\n"
+            "Question:\n"
+            f"{prompt_context['question_text']}"
+        )
+    return (
+        "<role>\n"
+        f"{STUDENT_SGR_SYSTEM_PROMPT}\n"
+        "</role>\n\n"
+        "<task>\n"
+        "Produce the hidden SGR reasoning object for this chemistry benchmark question.\n"
+        "</task>\n\n"
+        "<answer_format>\n"
+        f"Benchmark level: {prompt_context['level']}\n"
+        f"Answer type: {prompt_context['answer_type']}\n"
+        f"Task subtype: {prompt_context['task_subtype']}\n"
+        f"Schema name: {schema_name}\n"
+        "Return exactly one JSON object.\n"
+        "</answer_format>\n\n"
+        "<runtime_context>\n"
+        f"Tools profile: {prompt_context['tools_profile']}\n"
+        f"Workspace root: {prompt_context['workspace_root']}\n"
+        f"{_format_tool_map(prompt_context['available_tools'])}\n"
+        "</runtime_context>\n\n"
+        "<task_contract>\n"
+        f"{_level_instruction(prompt_context['level'])}\n"
+        "</task_contract>\n\n"
+        "<tool_rules>\n"
+        f"{STUDENT_TOOL_RULES}\n"
+        "</tool_rules>\n\n"
+        "<tool_decision_order>\n"
+        f"{TOOL_DECISION_RULES}\n"
+        "</tool_decision_order>\n\n"
+        "<sgr_completion_criteria>\n"
+        f"{STUDENT_SGR_COMPLETION_RULES}\n"
+        "</sgr_completion_criteria>\n\n"
+        "<sgr_schema>\n"
+        f"{schema_lines or '{}'}\n"
+        "</sgr_schema>\n\n"
+        "<question>\n"
+        f"{prompt_context['question_text']}\n"
+        "</question>"
+    )
+
+
+def build_student_task(
+    question: Dict[str, Any],
+    runtime_context: Dict[str, Any] | None = None,
+    sgr_context: Dict[str, Any] | None = None,
+) -> str:
+    prompt_context = _extract_prompt_context(question, runtime_context)
+    sgr_context_text = _format_sgr_context(sgr_context)
+    sgr_block = (
+        "<validated_sgr_context>\n"
+        f"{sgr_context_text}\n"
+        "Use this validated SGR context as hidden reasoning guidance only. "
+        "Do not print the schema or hidden fields in the final answer.\n"
+        "</validated_sgr_context>\n\n"
+        if sgr_context_text
+        else ""
+    )
+    return (
+        "<role>\n"
+        f"{STUDENT_SYSTEM_PROMPT}\n"
+        "</role>\n\n"
+        "<task>\n"
+        "Produce the best final answer for the chemistry question.\n"
+        "</task>\n\n"
+        "<answer_format>\n"
+        f"Benchmark level: {prompt_context['level']}\n"
+        f"Answer type: {prompt_context['answer_type']}\n"
+        f"Task subtype: {prompt_context['task_subtype']}\n"
+        f"Required format: {_format_instruction(prompt_context['answer_type'])}\n"
+        "</answer_format>\n\n"
+        "<runtime_context>\n"
+        f"Tools profile: {prompt_context['tools_profile']}\n"
+        f"Workspace root: {prompt_context['workspace_root']}\n"
+        f"{_format_tool_map(prompt_context['available_tools'])}\n"
+        "</runtime_context>\n\n"
+        f"{sgr_block}"
+        "<task_contract>\n"
+        f"{_level_instruction(prompt_context['level'])}\n"
+        "</task_contract>\n\n"
+        "<tool_rules>\n"
+        f"{STUDENT_TOOL_RULES}\n"
+        "</tool_rules>\n\n"
+        "<tool_decision_order>\n"
+        f"{TOOL_DECISION_RULES}\n"
+        "</tool_decision_order>\n\n"
+        "<completion_criteria>\n"
+        f"{STUDENT_COMPLETION_RULES}\n"
+        "</completion_criteria>\n\n"
+        "<pre_final_self_check>\n"
+        f"{_level_self_check(prompt_context['level'])}\n"
+        "</pre_final_self_check>\n\n"
+        "<code_agent_rules>\n"
+        f"{STUDENT_CODE_AGENT_RULES}\n"
+        "</code_agent_rules>\n\n"
+        "<question>\n"
+        f"{prompt_context['question_text']}\n"
+        "</question>"
+    )

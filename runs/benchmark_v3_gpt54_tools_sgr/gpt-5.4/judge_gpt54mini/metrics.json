@@ -1,0 +1,349 @@
+{
+  "total_rows": 990,
+  "overall_quality_total_score": 1622.16,
+  "overall_quality_max_score": 2280.0,
+  "overall_quality_score": 0.7114736842105264,
+  "overall_end_to_end_score": 0.7114736842105264,
+  "judge_input_tokens_total": 3010836,
+  "judge_output_tokens_total": 1068630,
+  "judge_total_tokens_total": 4079466,
+  "judge_reasoning_tokens_total": 819380,
+  "judge_requests_total": 990,
+  "judge_tool_calls_total": 0,
+  "reliability_ok_count": 990,
+  "reliability_ok_rate": 1.0,
+  "infra_error_count": {},
+  "infra_error_rate": {},
+  "errors_sample": [],
+  "taxonomy_version": "benchmark_taxonomy",
+  "core_suites": [
+    "A",
+    "B",
+    "C"
+  ],
+  "auxiliary_suites": [
+    "G"
+  ],
+  "macro_depth_quality_score": 0.721765432098766,
+  "macro_depth_end_to_end_score": 0.721765432098766,
+  "auxiliary_grounding_quality_score": 0.7215686274509798,
+  "auxiliary_grounding_end_to_end_score": 0.7215686274509798,
+  "breakdown_by_suite": {
+    "A": {
+      "count": 216,
+      "quality_count": 216,
+      "quality_total_score": 354.80000000000024,
+      "quality_max_score": 432.0,
+      "end_to_end_max_score": 432.0,
+      "quality_score": 0.8212962962962969,
+      "end_to_end_score": 0.8212962962962969,
+      "ok_rate": 1.0
+    },
+    "B": {
+      "count": 420,
+      "quality_count": 420,
+      "quality_total_score": 582.9600000000013,
+      "quality_max_score": 840.0,
+      "end_to_end_max_score": 840.0,
+      "quality_score": 0.6940000000000015,
+      "end_to_end_score": 0.6940000000000015,
+      "ok_rate": 1.0
+    },
+    "C": {
+      "count": 150,
+      "quality_count": 150,
+      "quality_total_score": 389.99999999999983,
+      "quality_max_score": 600.0,
+      "end_to_end_max_score": 600.0,
+      "quality_score": 0.6499999999999997,
+      "end_to_end_score": 0.6499999999999997,
+      "ok_rate": 1.0
+    },
+    "G": {
+      "count": 204,
+      "quality_count": 204,
+      "quality_total_score": 294.39999999999975,
+      "quality_max_score": 408.0,
+      "end_to_end_max_score": 408.0,
+      "quality_score": 0.7215686274509798,
+      "end_to_end_score": 0.7215686274509798,
+      "ok_rate": 1.0
+    }
+  },
+  "breakdown_by_subtrack": {
+    "A1": {
+      "count": 140,
+      "quality_count": 140,
+      "quality_total_score": 254.19999999999987,
+      "quality_max_score": 280.0,
+      "end_to_end_max_score": 280.0,
+      "quality_score": 0.9078571428571424,
+      "end_to_end_score": 0.9078571428571424,
+      "ok_rate": 1.0
+    },
+    "A2": {
+      "count": 76,
+      "quality_count": 76,
+      "quality_total_score": 100.59999999999995,
+      "quality_max_score": 152.0,
+      "end_to_end_max_score": 152.0,
+      "quality_score": 0.6618421052631576,
+      "end_to_end_score": 0.6618421052631576,
+      "ok_rate": 1.0
+    },
+    "B1": {
+      "count": 210,
+      "quality_count": 210,
+      "quality_total_score": 320.76000000000033,
+      "quality_max_score": 420.0,
+      "end_to_end_max_score": 420.0,
+      "quality_score": 0.7637142857142865,
+      "end_to_end_score": 0.7637142857142865,
+      "ok_rate": 1.0
+    },
+    "B2": {
+      "count": 210,
+      "quality_count": 210,
+      "quality_total_score": 262.2,
+      "quality_max_score": 420.0,
+      "end_to_end_max_score": 420.0,
+      "quality_score": 0.6242857142857142,
+      "end_to_end_score": 0.6242857142857142,
+      "ok_rate": 1.0
+    },
+    "C2": {
+      "count": 137,
+      "quality_count": 137,
+      "quality_total_score": 345.19999999999976,
+      "quality_max_score": 548.0,
+      "end_to_end_max_score": 548.0,
+      "quality_score": 0.6299270072992696,
+      "end_to_end_score": 0.6299270072992696,
+      "ok_rate": 1.0
+    },
+    "C3": {
+      "count": 13,
+      "quality_count": 13,
+      "quality_total_score": 44.800000000000004,
+      "quality_max_score": 52.0,
+      "end_to_end_max_score": 52.0,
+      "quality_score": 0.8615384615384616,
+      "end_to_end_score": 0.8615384615384616,
+      "ok_rate": 1.0
+    },
+    "G1": {
+      "count": 112,
+      "quality_count": 112,
+      "quality_total_score": 167.0,
+      "quality_max_score": 224.0,
+      "end_to_end_max_score": 224.0,
+      "quality_score": 0.7455357142857143,
+      "end_to_end_score": 0.7455357142857143,
+      "ok_rate": 1.0
+    },
+    "G2": {
+      "count": 92,
+      "quality_count": 92,
+      "quality_total_score": 127.39999999999998,
+      "quality_max_score": 184.0,
+      "end_to_end_max_score": 184.0,
+      "quality_score": 0.6923913043478259,
+      "end_to_end_score": 0.6923913043478259,
+      "ok_rate": 1.0
+    }
+  },
+  "breakdown_by_task_subtype": {
+    "condition_role_identification": {
+      "count": 92,
+      "quality_count": 92,
+      "quality_total_score": 127.39999999999998,
+      "quality_max_score": 184.0,
+      "end_to_end_max_score": 184.0,
+      "quality_score": 0.6923913043478259,
+      "end_to_end_score": 0.6923913043478259,
+      "ok_rate": 1.0
+    },
+    "immediate_precursor_prediction": {
+      "count": 210,
+      "quality_count": 210,
+      "quality_total_score": 320.76000000000033,
+      "quality_max_score": 420.0,
+      "end_to_end_max_score": 420.0,
+      "quality_score": 0.7637142857142865,
+      "end_to_end_score": 0.7637142857142865,
+      "ok_rate": 1.0
+    },
+    "immediate_precursor_with_disconnection": {
+      "count": 210,
+      "quality_count": 210,
+      "quality_total_score": 262.2,
+      "quality_max_score": 420.0,
+      "end_to_end_max_score": 420.0,
+      "quality_score": 0.6242857142857142,
+      "end_to_end_score": 0.6242857142857142,
+      "ok_rate": 1.0
+    },
+    "mechanistic_classification": {
+      "count": 76,
+      "quality_count": 76,
+      "quality_total_score": 100.59999999999995,
+      "quality_max_score": 152.0,
+      "end_to_end_max_score": 152.0,
+      "quality_score": 0.6618421052631576,
+      "end_to_end_score": 0.6618421052631576,
+      "ok_rate": 1.0
+    },
+    "reaction_center_identification": {
+      "count": 76,
+      "quality_count": 76,
+      "quality_total_score": 145.39999999999995,
+      "quality_max_score": 152.0,
+      "end_to_end_max_score": 152.0,
+      "quality_score": 0.9565789473684208,
+      "end_to_end_score": 0.9565789473684208,
+      "ok_rate": 1.0
+    },
+    "reagent_role_identification": {
+      "count": 112,
+      "quality_count": 112,
+      "quality_total_score": 167.0,
+      "quality_max_score": 224.0,
+      "end_to_end_max_score": 224.0,
+      "quality_score": 0.7455357142857143,
+      "end_to_end_score": 0.7455357142857143,
+      "ok_rate": 1.0
+    },
+    "reference_route_planning": {
+      "count": 137,
+      "quality_count": 137,
+      "quality_total_score": 345.19999999999976,
+      "quality_max_score": 548.0,
+      "end_to_end_max_score": 548.0,
+      "quality_score": 0.6299270072992696,
+      "end_to_end_score": 0.6299270072992696,
+      "ok_rate": 1.0
+    },
+    "route_design": {
+      "count": 13,
+      "quality_count": 13,
+      "quality_total_score": 44.800000000000004,
+      "quality_max_score": 52.0,
+      "end_to_end_max_score": 52.0,
+      "quality_score": 0.8615384615384616,
+      "end_to_end_score": 0.8615384615384616,
+      "ok_rate": 1.0
+    },
+    "transformation_classification": {
+      "count": 64,
+      "quality_count": 64,
+      "quality_total_score": 108.79999999999997,
+      "quality_max_score": 128.0,
+      "end_to_end_max_score": 128.0,
+      "quality_score": 0.8499999999999998,
+      "end_to_end_score": 0.8499999999999998,
+      "ok_rate": 1.0
+    }
+  },
+  "breakdown_by_task_mode": {
+    "constrained_generation": {
+      "count": 420,
+      "quality_count": 420,
+      "quality_total_score": 582.9600000000013,
+      "quality_max_score": 840.0,
+      "end_to_end_max_score": 840.0,
+      "quality_score": 0.6940000000000015,
+      "end_to_end_score": 0.6940000000000015,
+      "ok_rate": 1.0
+    },
+    "grounding_extraction": {
+      "count": 204,
+      "quality_count": 204,
+      "quality_total_score": 294.39999999999975,
+      "quality_max_score": 408.0,
+      "end_to_end_max_score": 408.0,
+      "quality_score": 0.7215686274509798,
+      "end_to_end_score": 0.7215686274509798,
+      "ok_rate": 1.0
+    },
+    "open_planning": {
+      "count": 150,
+      "quality_count": 150,
+      "quality_total_score": 389.99999999999983,
+      "quality_max_score": 600.0,
+      "end_to_end_max_score": 600.0,
+      "quality_score": 0.6499999999999997,
+      "end_to_end_score": 0.6499999999999997,
+      "ok_rate": 1.0
+    },
+    "recognition": {
+      "count": 216,
+      "quality_count": 216,
+      "quality_total_score": 354.80000000000024,
+      "quality_max_score": 432.0,
+      "end_to_end_max_score": 432.0,
+      "quality_score": 0.8212962962962969,
+      "end_to_end_score": 0.8212962962962969,
+      "ok_rate": 1.0
+    }
+  },
+  "breakdown_by_planning_horizon": {
+    "auxiliary": {
+      "count": 204,
+      "quality_count": 204,
+      "quality_total_score": 294.39999999999975,
+      "quality_max_score": 408.0,
+      "end_to_end_max_score": 408.0,
+      "quality_score": 0.7215686274509798,
+      "end_to_end_score": 0.7215686274509798,
+      "ok_rate": 1.0
+    },
+    "local": {
+      "count": 216,
+      "quality_count": 216,
+      "quality_total_score": 354.80000000000024,
+      "quality_max_score": 432.0,
+      "end_to_end_max_score": 432.0,
+      "quality_score": 0.8212962962962969,
+      "end_to_end_score": 0.8212962962962969,
+      "ok_rate": 1.0
+    },
+    "route_level": {
+      "count": 150,
+      "quality_count": 150,
+      "quality_total_score": 389.99999999999983,
+      "quality_max_score": 600.0,
+      "end_to_end_max_score": 600.0,
+      "quality_score": 0.6499999999999997,
+      "end_to_end_score": 0.6499999999999997,
+      "ok_rate": 1.0
+    },
+    "single_step": {
+      "count": 420,
+      "quality_count": 420,
+      "quality_total_score": 582.9600000000013,
+      "quality_max_score": 840.0,
+      "end_to_end_max_score": 840.0,
+      "quality_score": 0.6940000000000015,
+      "end_to_end_score": 0.6940000000000015,
+      "ok_rate": 1.0
+    }
+  },
+  "model_name": "gpt-5.4",
+  "judge_model": "gpt-5.4-mini",
+  "student_output_path": "runs/benchmark_v3_gpt54_tools_sgr/gpt-5.4/student_output.jsonl",
+  "judge_output_path": "runs/benchmark_v3_gpt54_tools_sgr/gpt-5.4/llm_judge_output.jsonl",
+  "student_input_tokens_total": 7512859,
+  "student_output_tokens_total": 1917246,
+  "student_total_tokens_total": 9430105,
+  "student_pricing_usd_per_1m": {
+    "input_per_1m_usd": 2.5,
+    "output_per_1m_usd": 15.0
+  },
+  "judge_pricing_usd_per_1m": {
+    "input_per_1m_usd": 0.25,
+    "output_per_1m_usd": 2.0
+  },
+  "student_estimated_cost_usd": 47.5408375,
+  "judge_estimated_cost_usd": 2.889969,
+  "estimated_cost_usd": 50.4308065
+}

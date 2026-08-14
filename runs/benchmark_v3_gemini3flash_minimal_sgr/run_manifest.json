@@ -1,0 +1,33 @@
+{
+  "run_id": "benchmark_v3_gemini3flash_minimal_sgr",
+  "model_name": "gemini-3-flash-preview",
+  "judge_model": "gpt-5.4-mini",
+  "benchmark_path": "benchmark/benchmark_v3_eval.jsonl",
+  "runtime_host": "orion",
+  "runtime_workspace": "~/work/Projects/SpectralixBenchmark_gemini_20260423_rsync",
+  "generated_at_utc": "2026-05-05T20:40:59.687719+00:00",
+  "student_rows": 990,
+  "student_verbose_rows": 990,
+  "judge_rows": 990,
+  "repair_status": {
+    "primary_rows": 990,
+    "primary_verbose_rows": 990,
+    "failed_keys": 199,
+    "repaired_ok": 199,
+    "pending": 0,
+    "exhausted": 0,
+    "ignored_infra_attempts": 1256,
+    "ignored_infra_keys": 0,
+    "pending_keys": [],
+    "exhausted_keys": []
+  },
+  "artifacts": {
+    "student_output": "runs/benchmark_v3_gemini3flash_minimal_sgr/student_output.jsonl",
+    "student_output_verbose": "runs/benchmark_v3_gemini3flash_minimal_sgr/student_output_verbose.jsonl",
+    "judge_output": "runs/benchmark_v3_gemini3flash_minimal_sgr/judge_gpt54mini/llm_judge_output.jsonl",
+    "metrics": "runs/benchmark_v3_gemini3flash_minimal_sgr/metrics.json",
+    "summary_json": "runs/benchmark_v3_gemini3flash_minimal_sgr/summary.json",
+    "summary_csv": "runs/benchmark_v3_gemini3flash_minimal_sgr/summary.csv",
+    "final_table": "runs/benchmark_v3_gemini3flash_minimal_sgr/final_table.md"
+  }
+}

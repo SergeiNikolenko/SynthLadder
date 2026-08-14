@@ -1,0 +1,4 @@
+selected_task,n,exact_agreement_n,within_two_points_n,mean_absolute_difference,quadratic_weighted_cohen_kappa
+A1b,41,33,39,0.585,0.555
+B1,22,9,15,2.273,0.429
+Overall,63,42,54,1.175,0.499

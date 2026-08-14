@@ -1,0 +1,8 @@
+system_configuration,frozen_rows,candidate_error_rows,candidate_empty_rows,judge_missing_after_nonempty_answer,cross_model_replacement_rows,usable_stored_scores,native_scored_rows,candidate_status_counts
+GPT-5.4,773,0,0,0,0,773,773,ok=773
+GPT-5.4-mini,773,0,0,0,27,773,746,ok=773
+Gemini 3.1 Pro,773,40,40,0,0,733,733,agent_step_error=40; ok=733
+GLM-5.1,773,1,1,0,0,772,772,agent_step_error=1; ok=772
+Gemini 3 Flash,773,166,166,0,0,607,607,agent_step_error=166; ok=607
+Qwen3.6-35B-A3B,773,0,0,0,0,773,773,ok=773
+GPT-OSS,773,0,0,0,0,773,773,ok=773

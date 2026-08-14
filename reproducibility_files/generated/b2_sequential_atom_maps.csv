@@ -1,0 +1,211 @@
+exam_id,page_id,question_id,atom_count,atom_map_labels_in_smiles_order,sequential_1_to_n_in_smiles_order
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0002763,8,1 2 3 4 5 6 7 8,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0006511,16,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0008728,18,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0009717,23,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0012204,29,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0021864,24,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0026067,25,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0046930,11,1 2 3 4 5 6 7 8 9 10 11,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0062199,14,1 2 3 4 5 6 7 8 9 10 11 12 13 14,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0066478,12,1 2 3 4 5 6 7 8 9 10 11 12,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0076777,5,1 2 3 4 5,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0078419,21,2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0086452,33,2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0088755,30,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0114050,19,2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0121260,26,11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0131784,20,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0135996,17,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0146865,21,9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0162381,25,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0224340,14,1 2 3 4 5 6 7 8 9 10 11 12 13 14,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0231934,32,2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0233993,30,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0237642,33,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0247291,21,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0331330,18,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0357902,19,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0429574,15,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0430177,9,1 2 3 4 5 6 7 8 9,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0454873,17,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0461528,24,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0476809,33,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0478535,39,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0497203,30,2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0502726,22,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0562837,21,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0583766,24,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0583844,15,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0599527,23,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0606452,35,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0620339,17,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0627133,20,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0673582,12,1 2 3 4 5 6 7 8 9 10 11 12,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0718608,23,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0785002,26,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0788740,14,1 2 3 4 5 6 7 8 9 10 11 12 13 14,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0790772,39,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0802984,25,2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0892354,22,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0893205,13,1 2 3 4 5 6 7 8 9 10 11 12 13,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0896685,31,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0897502,15,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0897931,16,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0938596,13,1 2 3 4 5 6 7 8 9 10 11 12 13,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0954588,24,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0962690,37,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0964310,37,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_0997204,18,1 2 3 4 5 6 7 17 18 16 9 10 11 12 13 14 15 8,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1030683,30,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1068425,32,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1097302,26,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1124226,20,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1125978,29,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1152352,34,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1161225,32,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1177390,30,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1182134,33,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1186422,38,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1201032,17,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1222587,13,1 2 3 4 5 6 7 8 9 10 11 12 13,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1235617,27,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1246617,43,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1264262,11,1 2 3 4 5 6 7 8 9 10 11,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1268643,15,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1288904,18,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1303057,13,2 3 4 5 6 7 8 9 10 11 12 13 14,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1331194,37,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1333210,17,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1384838,20,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1397622,24,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1433483,18,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1439358,12,1 2 3 4 5 6 7 8 9 10 11 12,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1450766,41,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1483824,19,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1486187,30,1 2 3 4 5 6 7 8 9 10 11 12 29 30 17 16 28 20 21 22 23 24 25 26 27 19 18 15 14 13,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1511295,38,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1546750,22,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1551000,24,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1608120,25,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1618500,41,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1623414,31,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1636823,24,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1642130,25,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 24 25 23 20 21 22 19 18,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1644171,35,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1650564,23,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1679236,33,1 2 3 4 5 6 7 8 9 10 11 12 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 13 14,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1687852,38,5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1698053,24,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1710750,29,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1770829,22,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1784026,11,1 2 3 4 5 6 7 8 9 10 11,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1809008,15,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1809464,24,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1810527,33,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1826817,11,2 3 4 5 6 7 8 9 10 11 12,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1831137,26,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1846052,31,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1850186,21,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1854572,22,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1866458,17,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1869888,16,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1887959,8,19 20 21 22 23 24 25 26,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1903409,28,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1911046,32,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1919482,34,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1922887,35,14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1932815,32,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1953713,12,1 2 3 4 5 6 7 8 9 10 11 12,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1955956,29,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1957665,18,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1960652,29,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1967738,27,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1974360,33,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_1988614,24,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2002623,24,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2032073,22,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2061128,20,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2066520,26,2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2078223,30,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2081958,25,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2170008,27,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2177621,23,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2186376,28,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2198631,26,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2223219,13,2 3 4 5 6 7 8 9 10 11 12 13 14,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2243335,17,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2302065,22,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2303653,16,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2339984,18,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2355486,27,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2358720,10,1 2 3 4 5 6 7 8 9 10,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2370688,32,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2453499,31,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2470888,21,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2487189,10,1 2 3 4 5 6 7 8 9 10,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2507501,32,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2508604,12,1 2 3 4 5 6 7 8 9 10 11 12,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2510530,14,1 2 3 4 5 6 7 8 9 10 11 12 13 14,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2510910,11,2 3 4 5 6 7 8 9 10 11 12,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2518574,25,1 2 3 4 5 6 7 15 16 14 11 9 10 8 12 13 17 18 19 20 21 22 23 24 25,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2525806,15,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2532823,27,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2567779,28,2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2574287,27,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2577389,42,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2581109,38,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2593684,15,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2611082,26,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2629858,24,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2645296,30,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2685537,20,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2703167,11,1 2 3 4 5 6 7 8 9 10 11,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2732762,11,1 2 3 4 5 6 7 8 9 10 11,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2741903,29,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2768585,16,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2784843,19,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2789492,26,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2800250,34,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2806274,24,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2806297,38,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2806428,31,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2807134,25,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2813860,32,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2830828,35,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2845559,26,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2876707,22,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2884318,21,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2897052,31,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2907082,16,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2914512,17,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2939712,19,1 2 3 4 5 6 16 17 18 19 10 9 15 13 14 12 11 8 7,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2962660,26,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2964885,38,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2965555,10,1 2 3 4 5 6 7 8 9 10,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2983343,33,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_2994014,26,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3013877,14,1 2 3 4 5 6 7 8 9 10 11 12 13 14,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3023008,24,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3029772,22,1 2 3 4 5 6 7 8 12 13 11 10 9 14 15 16 17 18 19 20 21 22,False
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3055598,28,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3068672,17,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3069379,29,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3089958,18,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3091092,33,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3093901,26,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3102058,34,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3108175,28,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3122774,22,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3156995,23,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3165246,16,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3176156,31,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3176780,15,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3178190,21,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3186814,30,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3197135,19,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3197138,20,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3205933,35,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3230562,24,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3277349,18,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18,True
+benchmark_v3_b,paroutes_selected_reactions_all,paroutes_selected_3283125,38,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38,True

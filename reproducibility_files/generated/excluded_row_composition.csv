@@ -1,0 +1,4 @@
+task_subtype,rows,exclusion_reason
+reagent_role_identification,112,auxiliary procedure-grounding task outside the six frozen analysis subtypes
+condition_role_identification,92,auxiliary procedure-grounding task outside the six frozen analysis subtypes
+route_design,13,internal pilot task outside the frozen reference-route analysis

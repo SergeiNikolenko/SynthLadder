@@ -1,0 +1,42 @@
+{
+  "auxiliary": {
+    "count": 204,
+    "quality_count": 86,
+    "quality_total_score": 119.80000000000001,
+    "quality_max_score": 172.0,
+    "end_to_end_max_score": 408.0,
+    "quality_score": 0.6965116279069768,
+    "end_to_end_score": 0.29362745098039217,
+    "ok_rate": 0.4215686274509804
+  },
+  "local": {
+    "count": 216,
+    "quality_count": 144,
+    "quality_total_score": 196.99999999999983,
+    "quality_max_score": 288.0,
+    "end_to_end_max_score": 432.0,
+    "quality_score": 0.6840277777777772,
+    "end_to_end_score": 0.4560185185185181,
+    "ok_rate": 0.6666666666666666
+  },
+  "route_level": {
+    "count": 150,
+    "quality_count": 149,
+    "quality_total_score": 282.3999999999999,
+    "quality_max_score": 596.0,
+    "end_to_end_max_score": 600.0,
+    "quality_score": 0.47382550335570456,
+    "end_to_end_score": 0.4706666666666665,
+    "ok_rate": 0.9933333333333333
+  },
+  "single_step": {
+    "count": 420,
+    "quality_count": 412,
+    "quality_total_score": 512.8000000000011,
+    "quality_max_score": 824.0,
+    "end_to_end_max_score": 840.0,
+    "quality_score": 0.62233009708738,
+    "end_to_end_score": 0.6104761904761917,
+    "ok_rate": 0.9809523809523809
+  }
+}

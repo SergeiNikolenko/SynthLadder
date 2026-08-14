@@ -1,0 +1,92 @@
+{
+  "condition_role_identification": {
+    "count": 92,
+    "quality_count": 92,
+    "quality_total_score": 109.60000000000001,
+    "quality_max_score": 184.0,
+    "end_to_end_max_score": 184.0,
+    "quality_score": 0.5956521739130435,
+    "end_to_end_score": 0.5956521739130435,
+    "ok_rate": 1.0
+  },
+  "immediate_precursor_prediction": {
+    "count": 210,
+    "quality_count": 170,
+    "quality_total_score": 263.2,
+    "quality_max_score": 340.0,
+    "end_to_end_max_score": 420.0,
+    "quality_score": 0.7741176470588235,
+    "end_to_end_score": 0.6266666666666666,
+    "ok_rate": 0.8095238095238095
+  },
+  "immediate_precursor_with_disconnection": {
+    "count": 210,
+    "quality_count": 210,
+    "quality_total_score": 236.19999999999962,
+    "quality_max_score": 420.0,
+    "end_to_end_max_score": 420.0,
+    "quality_score": 0.5623809523809514,
+    "end_to_end_score": 0.5623809523809514,
+    "ok_rate": 1.0
+  },
+  "mechanistic_classification": {
+    "count": 76,
+    "quality_count": 76,
+    "quality_total_score": 70.59999999999997,
+    "quality_max_score": 152.0,
+    "end_to_end_max_score": 152.0,
+    "quality_score": 0.4644736842105261,
+    "end_to_end_score": 0.4644736842105261,
+    "ok_rate": 1.0
+  },
+  "reaction_center_identification": {
+    "count": 76,
+    "quality_count": 76,
+    "quality_total_score": 116.59999999999995,
+    "quality_max_score": 152.0,
+    "end_to_end_max_score": 152.0,
+    "quality_score": 0.7671052631578944,
+    "end_to_end_score": 0.7671052631578944,
+    "ok_rate": 1.0
+  },
+  "reagent_role_identification": {
+    "count": 112,
+    "quality_count": 112,
+    "quality_total_score": 144.40000000000006,
+    "quality_max_score": 224.0,
+    "end_to_end_max_score": 224.0,
+    "quality_score": 0.6446428571428574,
+    "end_to_end_score": 0.6446428571428574,
+    "ok_rate": 1.0
+  },
+  "reference_route_planning": {
+    "count": 137,
+    "quality_count": 137,
+    "quality_total_score": 265.59999999999985,
+    "quality_max_score": 548.0,
+    "end_to_end_max_score": 548.0,
+    "quality_score": 0.48467153284671505,
+    "end_to_end_score": 0.48467153284671505,
+    "ok_rate": 1.0
+  },
+  "route_design": {
+    "count": 13,
+    "quality_count": 13,
+    "quality_total_score": 41.6,
+    "quality_max_score": 52.0,
+    "end_to_end_max_score": 52.0,
+    "quality_score": 0.8,
+    "end_to_end_score": 0.8,
+    "ok_rate": 1.0
+  },
+  "transformation_classification": {
+    "count": 64,
+    "quality_count": 64,
+    "quality_total_score": 114.19999999999999,
+    "quality_max_score": 128.0,
+    "end_to_end_max_score": 128.0,
+    "quality_score": 0.8921874999999999,
+    "end_to_end_score": 0.8921874999999999,
+    "ok_rate": 1.0
+  }
+}

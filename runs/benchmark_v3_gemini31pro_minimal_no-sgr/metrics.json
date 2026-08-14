@@ -1,0 +1,714 @@
+{
+  "total_rows": 990,
+  "overall_quality_total_score": 1362.0,
+  "overall_quality_max_score": 2200.0,
+  "overall_quality_score": 0.6190909090909091,
+  "overall_end_to_end_score": 0.5973684210526315,
+  "judge_input_tokens_total": 3100566,
+  "judge_output_tokens_total": 975553,
+  "judge_total_tokens_total": 4076119,
+  "judge_reasoning_tokens_total": 737317,
+  "judge_requests_total": 950,
+  "judge_tool_calls_total": 0,
+  "reliability_ok_count": 950,
+  "reliability_ok_rate": 0.9595959595959596,
+  "infra_error_count": {
+    "agent_step_error": 40
+  },
+  "infra_error_rate": {
+    "agent_step_error": 0.04040404040404041
+  },
+  "errors_sample": [
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0833304",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0315979",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0836189",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0758045",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0501003",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0484461",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0919192",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0578540",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0350524",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0431010",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0600855",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0399673",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0914879",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0030246",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0467743",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0114589",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0587128",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0253910",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0142770",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0040829",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0164539",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0861844",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0134853",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0616567",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0807330",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0464878",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0730017",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0638152",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0820004",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0305308",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0012623",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0250853",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0860481",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0445080",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0684693",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0759278",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0645432",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0172699",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0407417",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0744678",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    }
+  ],
+  "taxonomy_version": "benchmark_taxonomy",
+  "core_suites": [
+    "A",
+    "B",
+    "C"
+  ],
+  "auxiliary_suites": [
+    "G"
+  ],
+  "macro_depth_quality_score": 0.6222634827810273,
+  "macro_depth_end_to_end_score": 0.6014029982363321,
+  "auxiliary_grounding_quality_score": 0.6225490196078433,
+  "auxiliary_grounding_end_to_end_score": 0.6225490196078433,
+  "breakdown_by_suite": {
+    "A": {
+      "count": 216,
+      "quality_count": 216,
+      "quality_total_score": 301.40000000000015,
+      "quality_max_score": 432.0,
+      "end_to_end_max_score": 432.0,
+      "quality_score": 0.6976851851851855,
+      "end_to_end_score": 0.6976851851851855,
+      "ok_rate": 1.0
+    },
+    "B": {
+      "count": 420,
+      "quality_count": 380,
+      "quality_total_score": 499.4000000000013,
+      "quality_max_score": 760.0,
+      "end_to_end_max_score": 840.0,
+      "quality_score": 0.6571052631578964,
+      "end_to_end_score": 0.594523809523811,
+      "ok_rate": 0.9047619047619048
+    },
+    "C": {
+      "count": 150,
+      "quality_count": 150,
+      "quality_total_score": 307.1999999999999,
+      "quality_max_score": 600.0,
+      "end_to_end_max_score": 600.0,
+      "quality_score": 0.5119999999999998,
+      "end_to_end_score": 0.5119999999999998,
+      "ok_rate": 1.0
+    },
+    "G": {
+      "count": 204,
+      "quality_count": 204,
+      "quality_total_score": 254.00000000000003,
+      "quality_max_score": 408.0,
+      "end_to_end_max_score": 408.0,
+      "quality_score": 0.6225490196078433,
+      "end_to_end_score": 0.6225490196078433,
+      "ok_rate": 1.0
+    }
+  },
+  "breakdown_by_subtrack": {
+    "A1": {
+      "count": 140,
+      "quality_count": 140,
+      "quality_total_score": 230.79999999999993,
+      "quality_max_score": 280.0,
+      "end_to_end_max_score": 280.0,
+      "quality_score": 0.8242857142857141,
+      "end_to_end_score": 0.8242857142857141,
+      "ok_rate": 1.0
+    },
+    "A2": {
+      "count": 76,
+      "quality_count": 76,
+      "quality_total_score": 70.59999999999997,
+      "quality_max_score": 152.0,
+      "end_to_end_max_score": 152.0,
+      "quality_score": 0.4644736842105261,
+      "end_to_end_score": 0.4644736842105261,
+      "ok_rate": 1.0
+    },
+    "B1": {
+      "count": 210,
+      "quality_count": 170,
+      "quality_total_score": 263.2,
+      "quality_max_score": 340.0,
+      "end_to_end_max_score": 420.0,
+      "quality_score": 0.7741176470588235,
+      "end_to_end_score": 0.6266666666666666,
+      "ok_rate": 0.8095238095238095
+    },
+    "B2": {
+      "count": 210,
+      "quality_count": 210,
+      "quality_total_score": 236.19999999999962,
+      "quality_max_score": 420.0,
+      "end_to_end_max_score": 420.0,
+      "quality_score": 0.5623809523809514,
+      "end_to_end_score": 0.5623809523809514,
+      "ok_rate": 1.0
+    },
+    "C2": {
+      "count": 137,
+      "quality_count": 137,
+      "quality_total_score": 265.59999999999985,
+      "quality_max_score": 548.0,
+      "end_to_end_max_score": 548.0,
+      "quality_score": 0.48467153284671505,
+      "end_to_end_score": 0.48467153284671505,
+      "ok_rate": 1.0
+    },
+    "C3": {
+      "count": 13,
+      "quality_count": 13,
+      "quality_total_score": 41.6,
+      "quality_max_score": 52.0,
+      "end_to_end_max_score": 52.0,
+      "quality_score": 0.8,
+      "end_to_end_score": 0.8,
+      "ok_rate": 1.0
+    },
+    "G1": {
+      "count": 112,
+      "quality_count": 112,
+      "quality_total_score": 144.40000000000006,
+      "quality_max_score": 224.0,
+      "end_to_end_max_score": 224.0,
+      "quality_score": 0.6446428571428574,
+      "end_to_end_score": 0.6446428571428574,
+      "ok_rate": 1.0
+    },
+    "G2": {
+      "count": 92,
+      "quality_count": 92,
+      "quality_total_score": 109.60000000000001,
+      "quality_max_score": 184.0,
+      "end_to_end_max_score": 184.0,
+      "quality_score": 0.5956521739130435,
+      "end_to_end_score": 0.5956521739130435,
+      "ok_rate": 1.0
+    }
+  },
+  "breakdown_by_task_subtype": {
+    "condition_role_identification": {
+      "count": 92,
+      "quality_count": 92,
+      "quality_total_score": 109.60000000000001,
+      "quality_max_score": 184.0,
+      "end_to_end_max_score": 184.0,
+      "quality_score": 0.5956521739130435,
+      "end_to_end_score": 0.5956521739130435,
+      "ok_rate": 1.0
+    },
+    "immediate_precursor_prediction": {
+      "count": 210,
+      "quality_count": 170,
+      "quality_total_score": 263.2,
+      "quality_max_score": 340.0,
+      "end_to_end_max_score": 420.0,
+      "quality_score": 0.7741176470588235,
+      "end_to_end_score": 0.6266666666666666,
+      "ok_rate": 0.8095238095238095
+    },
+    "immediate_precursor_with_disconnection": {
+      "count": 210,
+      "quality_count": 210,
+      "quality_total_score": 236.19999999999962,
+      "quality_max_score": 420.0,
+      "end_to_end_max_score": 420.0,
+      "quality_score": 0.5623809523809514,
+      "end_to_end_score": 0.5623809523809514,
+      "ok_rate": 1.0
+    },
+    "mechanistic_classification": {
+      "count": 76,
+      "quality_count": 76,
+      "quality_total_score": 70.59999999999997,
+      "quality_max_score": 152.0,
+      "end_to_end_max_score": 152.0,
+      "quality_score": 0.4644736842105261,
+      "end_to_end_score": 0.4644736842105261,
+      "ok_rate": 1.0
+    },
+    "reaction_center_identification": {
+      "count": 76,
+      "quality_count": 76,
+      "quality_total_score": 116.59999999999995,
+      "quality_max_score": 152.0,
+      "end_to_end_max_score": 152.0,
+      "quality_score": 0.7671052631578944,
+      "end_to_end_score": 0.7671052631578944,
+      "ok_rate": 1.0
+    },
+    "reagent_role_identification": {
+      "count": 112,
+      "quality_count": 112,
+      "quality_total_score": 144.40000000000006,
+      "quality_max_score": 224.0,
+      "end_to_end_max_score": 224.0,
+      "quality_score": 0.6446428571428574,
+      "end_to_end_score": 0.6446428571428574,
+      "ok_rate": 1.0
+    },
+    "reference_route_planning": {
+      "count": 137,
+      "quality_count": 137,
+      "quality_total_score": 265.59999999999985,
+      "quality_max_score": 548.0,
+      "end_to_end_max_score": 548.0,
+      "quality_score": 0.48467153284671505,
+      "end_to_end_score": 0.48467153284671505,
+      "ok_rate": 1.0
+    },
+    "route_design": {
+      "count": 13,
+      "quality_count": 13,
+      "quality_total_score": 41.6,
+      "quality_max_score": 52.0,
+      "end_to_end_max_score": 52.0,
+      "quality_score": 0.8,
+      "end_to_end_score": 0.8,
+      "ok_rate": 1.0
+    },
+    "transformation_classification": {
+      "count": 64,
+      "quality_count": 64,
+      "quality_total_score": 114.19999999999999,
+      "quality_max_score": 128.0,
+      "end_to_end_max_score": 128.0,
+      "quality_score": 0.8921874999999999,
+      "end_to_end_score": 0.8921874999999999,
+      "ok_rate": 1.0
+    }
+  },
+  "breakdown_by_task_mode": {
+    "constrained_generation": {
+      "count": 420,
+      "quality_count": 380,
+      "quality_total_score": 499.4000000000013,
+      "quality_max_score": 760.0,
+      "end_to_end_max_score": 840.0,
+      "quality_score": 0.6571052631578964,
+      "end_to_end_score": 0.594523809523811,
+      "ok_rate": 0.9047619047619048
+    },
+    "grounding_extraction": {
+      "count": 204,
+      "quality_count": 204,
+      "quality_total_score": 254.00000000000003,
+      "quality_max_score": 408.0,
+      "end_to_end_max_score": 408.0,
+      "quality_score": 0.6225490196078433,
+      "end_to_end_score": 0.6225490196078433,
+      "ok_rate": 1.0
+    },
+    "open_planning": {
+      "count": 150,
+      "quality_count": 150,
+      "quality_total_score": 307.1999999999999,
+      "quality_max_score": 600.0,
+      "end_to_end_max_score": 600.0,
+      "quality_score": 0.5119999999999998,
+      "end_to_end_score": 0.5119999999999998,
+      "ok_rate": 1.0
+    },
+    "recognition": {
+      "count": 216,
+      "quality_count": 216,
+      "quality_total_score": 301.40000000000015,
+      "quality_max_score": 432.0,
+      "end_to_end_max_score": 432.0,
+      "quality_score": 0.6976851851851855,
+      "end_to_end_score": 0.6976851851851855,
+      "ok_rate": 1.0
+    }
+  },
+  "breakdown_by_planning_horizon": {
+    "auxiliary": {
+      "count": 204,
+      "quality_count": 204,
+      "quality_total_score": 254.00000000000003,
+      "quality_max_score": 408.0,
+      "end_to_end_max_score": 408.0,
+      "quality_score": 0.6225490196078433,
+      "end_to_end_score": 0.6225490196078433,
+      "ok_rate": 1.0
+    },
+    "local": {
+      "count": 216,
+      "quality_count": 216,
+      "quality_total_score": 301.40000000000015,
+      "quality_max_score": 432.0,
+      "end_to_end_max_score": 432.0,
+      "quality_score": 0.6976851851851855,
+      "end_to_end_score": 0.6976851851851855,
+      "ok_rate": 1.0
+    },
+    "route_level": {
+      "count": 150,
+      "quality_count": 150,
+      "quality_total_score": 307.1999999999999,
+      "quality_max_score": 600.0,
+      "end_to_end_max_score": 600.0,
+      "quality_score": 0.5119999999999998,
+      "end_to_end_score": 0.5119999999999998,
+      "ok_rate": 1.0
+    },
+    "single_step": {
+      "count": 420,
+      "quality_count": 380,
+      "quality_total_score": 499.4000000000013,
+      "quality_max_score": 760.0,
+      "end_to_end_max_score": 840.0,
+      "quality_score": 0.6571052631578964,
+      "end_to_end_score": 0.594523809523811,
+      "ok_rate": 0.9047619047619048
+    }
+  },
+  "model_name": "gemini-3.1-pro-preview",
+  "judge_model": "gpt-5.4-mini",
+  "student_output_path": "runs/benchmark_v3_gemini31pro_minimal_no-sgr/student_output.jsonl",
+  "judge_output_path": "runs/benchmark_v3_gemini31pro_minimal_no-sgr/judge_gpt54mini/llm_judge_output.jsonl",
+  "student_input_tokens_total": 1542302,
+  "student_output_tokens_total": 103746,
+  "student_total_tokens_total": 5881262,
+  "student_pricing_usd_per_1m": {
+    "input_per_1m_usd": null,
+    "output_per_1m_usd": null
+  },
+  "judge_pricing_usd_per_1m": {
+    "input_per_1m_usd": null,
+    "output_per_1m_usd": null
+  },
+  "student_estimated_cost_usd": null,
+  "judge_estimated_cost_usd": null,
+  "estimated_cost_usd": null
+}

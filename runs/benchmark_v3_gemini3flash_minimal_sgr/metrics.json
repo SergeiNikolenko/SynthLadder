@@ -1,0 +1,2147 @@
+{
+  "total_rows": 990,
+  "overall_quality_total_score": 1112.0,
+  "overall_quality_max_score": 1880.0,
+  "overall_quality_score": 0.5914893617021276,
+  "overall_end_to_end_score": 0.48771929824561405,
+  "judge_input_tokens_total": 2266278,
+  "judge_output_tokens_total": 879148,
+  "judge_total_tokens_total": 3145426,
+  "judge_reasoning_tokens_total": 675493,
+  "judge_requests_total": 791,
+  "judge_tool_calls_total": 0,
+  "reliability_ok_count": 791,
+  "reliability_ok_rate": 0.798989898989899,
+  "infra_error_count": {
+    "agent_step_error": 195,
+    "timeout": 4
+  },
+  "infra_error_rate": {
+    "agent_step_error": 0.19696969696969696,
+    "timeout": 0.00404040404040404
+  },
+  "errors_sample": [
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00012",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00066",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00077",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00099",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00102",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00118",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00120",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00122",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00124",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00125",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00129",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00132",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00135",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00139",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00150",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00171",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00176",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00179",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00198",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00205",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00215",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00217",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00220",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00237",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00238",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00244",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00263",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00264",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00295",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test",
+      "question_id": "pmechdb_combinatorial_test_02808",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Classify the mechanistic class of the mapped reaction and identify the reaction center.\n\nUse the structured benchmark context below as the full task specificati"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test",
+      "question_id": "pmechdb_combinatorial_test_02816",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Classify the mechanistic class of the mapped reaction and identify the reaction center.\n\nUse the structured benchmark context below as the full task specificati"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test",
+      "question_id": "pmechdb_combinatorial_test_02907",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Classify the mechanistic class of the mapped reaction and identify the reaction center.\n\nUse the structured benchmark context below as the full task specificati"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test",
+      "question_id": "pmechdb_combinatorial_test_02980",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Classify the mechanistic class of the mapped reaction and identify the reaction center.\n\nUse the structured benchmark context below as the full task specificati"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test",
+      "question_id": "pmechdb_combinatorial_test_03237",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Classify the mechanistic class of the mapped reaction and identify the reaction center.\n\nUse the structured benchmark context below as the full task specificati"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test",
+      "question_id": "pmechdb_combinatorial_test_03345",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Classify the mechanistic class of the mapped reaction and identify the reaction center.\n\nUse the structured benchmark context below as the full task specificati"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test",
+      "question_id": "pmechdb_combinatorial_test_03592",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Classify the mechanistic class of the mapped reaction and identify the reaction center.\n\nUse the structured benchmark context below as the full task specificati"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test",
+      "question_id": "pmechdb_combinatorial_test_03645",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Classify the mechanistic class of the mapped reaction and identify the reaction center.\n\nUse the structured benchmark context below as the full task specificati"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test",
+      "question_id": "pmechdb_combinatorial_test_03688",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Classify the mechanistic class of the mapped reaction and identify the reaction center.\n\nUse the structured benchmark context below as the full task specificati"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test",
+      "question_id": "pmechdb_combinatorial_test_03698",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Classify the mechanistic class of the mapped reaction and identify the reaction center.\n\nUse the structured benchmark context below as the full task specificati"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test",
+      "question_id": "pmechdb_combinatorial_test_04342",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Classify the mechanistic class of the mapped reaction and identify the reaction center.\n\nUse the structured benchmark context below as the full task specificati"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test",
+      "question_id": "pmechdb_combinatorial_test_04674",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Classify the mechanistic class of the mapped reaction and identify the reaction center.\n\nUse the structured benchmark context below as the full task specificati"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test",
+      "question_id": "pmechdb_combinatorial_test_05845",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Classify the mechanistic class of the mapped reaction and identify the reaction center.\n\nUse the structured benchmark context below as the full task specificati"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test",
+      "question_id": "pmechdb_combinatorial_test_05873",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Classify the mechanistic class of the mapped reaction and identify the reaction center.\n\nUse the structured benchmark context below as the full task specificati"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test",
+      "question_id": "pmechdb_combinatorial_test_08090",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Classify the mechanistic class of the mapped reaction and identify the reaction center.\n\nUse the structured benchmark context below as the full task specificati"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test",
+      "question_id": "pmechdb_combinatorial_test_08394",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Classify the mechanistic class of the mapped reaction and identify the reaction center.\n\nUse the structured benchmark context below as the full task specificati"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test",
+      "question_id": "pmechdb_combinatorial_test_08519",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Classify the mechanistic class of the mapped reaction and identify the reaction center.\n\nUse the structured benchmark context below as the full task specificati"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test",
+      "question_id": "pmechdb_combinatorial_test_08834",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Classify the mechanistic class of the mapped reaction and identify the reaction center.\n\nUse the structured benchmark context below as the full task specificati"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US06881736B1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US07326803B2",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20070072865A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US08318949B2",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20150210699A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20070254882A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20150119405A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20100152192A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20090163512A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20120302566A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US07732461B2",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20040192685A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20100036118A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20090286985A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20130267541A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20140275070A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20100324284A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20150057260A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US04175203",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20110178060A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US06451805B1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US08962654B2",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US06451834B1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20100137303A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US05175281",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0005",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0035",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0064",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0080",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0139",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0160",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0172",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0190",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0209",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0222",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0232",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0285",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0313",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0335",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0378",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0472",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0475",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0543",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0602",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0658",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0660",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0680",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0717",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0742",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0803",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0879",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0928",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_1061",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_1071",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_1075",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_1076",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_1112",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_1142",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_1170",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_1204",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_1214",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_1261",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_1288",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_1319",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_1363",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_1394",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_1399",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_1420",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_1439",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_dev",
+      "question_id": "chemu_ner_dev_0184",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_dev",
+      "question_id": "chemu_ner_dev_0296",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_dev",
+      "question_id": "chemu_ner_dev_0415",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_dev",
+      "question_id": "chemu_ner_dev_0748",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_dev",
+      "question_id": "chemu_ner_dev_0759",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_dev",
+      "question_id": "chemu_ner_dev_0864",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_dev",
+      "question_id": "chemu_ner_dev_0875",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_dev",
+      "question_id": "chemu_ner_dev_1164",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_dev",
+      "question_id": "chemu_ner_dev_1206",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_dev",
+      "question_id": "chemu_ner_dev_1283",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_044906",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_051877",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_055279",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_084998",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_113519",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_114339",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_160873",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_162431",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_164596",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_225286",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_231892",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_344049",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_459638",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_516500",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_520552",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_560148",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_582748",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_593259",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_595280",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_603896",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_619230",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_626392",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_678445",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_737918",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_889396",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_892275",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_911735",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_923359",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_989612",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_1067330",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_1103767",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_1121777",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_1204085",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_1301138",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_1618379",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_1633334",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_1761261",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_1780421",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_1789769",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_1983288",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_2017979",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_2103283",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_2145823",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_2148995",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_2160435",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_2169023",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_2173133",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_2176873",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_2221431",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US09856224-20180102",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US09856259-20180102",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US09861627-20180109",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US09868698-20180116",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US09884816-20180206",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US09884854-20180206",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US09890163-20180213",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US09919263-20180320",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US09951019-20180424",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US09957283-20180501",
+      "answer_type": "reaction_description",
+      "student_status": "timeout",
+      "student_error": "Command '['/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/.venv/bin/python', '-m', 'spectralix_benchmark.agents.openshell_worker']' timed out after 360 seconds",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US09961897-20180508",
+      "answer_type": "reaction_description",
+      "student_status": "timeout",
+      "student_error": "Command '['/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/.venv/bin/python', '-m', 'spectralix_benchmark.agents.openshell_worker']' timed out after 360 seconds",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US09975844-20180522",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US10189776-20190129",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US10208003-20190219",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US10227310-20190312",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0400177",
+      "answer_type": "text",
+      "student_status": "timeout",
+      "student_error": "Command '['/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/.venv/bin/python', '-m', 'spectralix_benchmark.agents.openshell_worker']' timed out after 600 seconds",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0891347",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0759278",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1710750",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1854572",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2453499",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2813860",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_3023008",
+      "answer_type": "text",
+      "student_status": "timeout",
+      "student_error": "Command '['/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/.venv/bin/python', '-m', 'spectralix_benchmark.agents.openshell_worker']' timed out after 600 seconds",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "benchmark_v1_0_pilot_internal",
+      "question_id": "exam_4/8",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Determine а synthesis of е following product from е given starting materials (additional reagents will be necessary). Each step in your synthesis must be clearl"
+    }
+  ],
+  "taxonomy_version": "benchmark_taxonomy",
+  "core_suites": [
+    "A",
+    "B",
+    "C"
+  ],
+  "auxiliary_suites": [
+    "G"
+  ],
+  "macro_depth_quality_score": 0.5933944594069539,
+  "macro_depth_end_to_end_score": 0.5123871252204588,
+  "auxiliary_grounding_quality_score": 0.6965116279069768,
+  "auxiliary_grounding_end_to_end_score": 0.29362745098039217,
+  "breakdown_by_suite": {
+    "A": {
+      "count": 216,
+      "quality_count": 144,
+      "quality_total_score": 196.99999999999983,
+      "quality_max_score": 288.0,
+      "end_to_end_max_score": 432.0,
+      "quality_score": 0.6840277777777772,
+      "end_to_end_score": 0.4560185185185181,
+      "ok_rate": 0.6666666666666666
+    },
+    "B": {
+      "count": 420,
+      "quality_count": 412,
+      "quality_total_score": 512.8000000000011,
+      "quality_max_score": 824.0,
+      "end_to_end_max_score": 840.0,
+      "quality_score": 0.62233009708738,
+      "end_to_end_score": 0.6104761904761917,
+      "ok_rate": 0.9809523809523809
+    },
+    "C": {
+      "count": 150,
+      "quality_count": 149,
+      "quality_total_score": 282.3999999999999,
+      "quality_max_score": 596.0,
+      "end_to_end_max_score": 600.0,
+      "quality_score": 0.47382550335570456,
+      "end_to_end_score": 0.4706666666666665,
+      "ok_rate": 0.9933333333333333
+    },
+    "G": {
+      "count": 204,
+      "quality_count": 86,
+      "quality_total_score": 119.80000000000001,
+      "quality_max_score": 172.0,
+      "end_to_end_max_score": 408.0,
+      "quality_score": 0.6965116279069768,
+      "end_to_end_score": 0.29362745098039217,
+      "ok_rate": 0.4215686274509804
+    }
+  },
+  "breakdown_by_subtrack": {
+    "A1": {
+      "count": 140,
+      "quality_count": 86,
+      "quality_total_score": 138.59999999999997,
+      "quality_max_score": 172.0,
+      "end_to_end_max_score": 280.0,
+      "quality_score": 0.8058139534883719,
+      "end_to_end_score": 0.4949999999999999,
+      "ok_rate": 0.6142857142857143
+    },
+    "A2": {
+      "count": 76,
+      "quality_count": 58,
+      "quality_total_score": 58.400000000000006,
+      "quality_max_score": 116.0,
+      "end_to_end_max_score": 152.0,
+      "quality_score": 0.503448275862069,
+      "end_to_end_score": 0.3842105263157895,
+      "ok_rate": 0.7631578947368421
+    },
+    "B1": {
+      "count": 210,
+      "quality_count": 207,
+      "quality_total_score": 287.80000000000007,
+      "quality_max_score": 414.0,
+      "end_to_end_max_score": 420.0,
+      "quality_score": 0.695169082125604,
+      "end_to_end_score": 0.6852380952380954,
+      "ok_rate": 0.9857142857142858
+    },
+    "B2": {
+      "count": 210,
+      "quality_count": 205,
+      "quality_total_score": 224.9999999999998,
+      "quality_max_score": 410.0,
+      "end_to_end_max_score": 420.0,
+      "quality_score": 0.5487804878048775,
+      "end_to_end_score": 0.5357142857142853,
+      "ok_rate": 0.9761904761904762
+    },
+    "C2": {
+      "count": 137,
+      "quality_count": 137,
+      "quality_total_score": 245.99999999999994,
+      "quality_max_score": 548.0,
+      "end_to_end_max_score": 548.0,
+      "quality_score": 0.448905109489051,
+      "end_to_end_score": 0.448905109489051,
+      "ok_rate": 1.0
+    },
+    "C3": {
+      "count": 13,
+      "quality_count": 12,
+      "quality_total_score": 36.4,
+      "quality_max_score": 48.0,
+      "end_to_end_max_score": 52.0,
+      "quality_score": 0.7583333333333333,
+      "end_to_end_score": 0.7,
+      "ok_rate": 0.9230769230769231
+    },
+    "G1": {
+      "count": 112,
+      "quality_count": 43,
+      "quality_total_score": 53.79999999999999,
+      "quality_max_score": 86.0,
+      "end_to_end_max_score": 224.0,
+      "quality_score": 0.625581395348837,
+      "end_to_end_score": 0.24017857142857138,
+      "ok_rate": 0.38392857142857145
+    },
+    "G2": {
+      "count": 92,
+      "quality_count": 43,
+      "quality_total_score": 66.0,
+      "quality_max_score": 86.0,
+      "end_to_end_max_score": 184.0,
+      "quality_score": 0.7674418604651163,
+      "end_to_end_score": 0.358695652173913,
+      "ok_rate": 0.4673913043478261
+    }
+  },
+  "breakdown_by_task_subtype": {
+    "condition_role_identification": {
+      "count": 92,
+      "quality_count": 43,
+      "quality_total_score": 66.0,
+      "quality_max_score": 86.0,
+      "end_to_end_max_score": 184.0,
+      "quality_score": 0.7674418604651163,
+      "end_to_end_score": 0.358695652173913,
+      "ok_rate": 0.4673913043478261
+    },
+    "immediate_precursor_prediction": {
+      "count": 210,
+      "quality_count": 207,
+      "quality_total_score": 287.80000000000007,
+      "quality_max_score": 414.0,
+      "end_to_end_max_score": 420.0,
+      "quality_score": 0.695169082125604,
+      "end_to_end_score": 0.6852380952380954,
+      "ok_rate": 0.9857142857142858
+    },
+    "immediate_precursor_with_disconnection": {
+      "count": 210,
+      "quality_count": 205,
+      "quality_total_score": 224.9999999999998,
+      "quality_max_score": 410.0,
+      "end_to_end_max_score": 420.0,
+      "quality_score": 0.5487804878048775,
+      "end_to_end_score": 0.5357142857142853,
+      "ok_rate": 0.9761904761904762
+    },
+    "mechanistic_classification": {
+      "count": 76,
+      "quality_count": 58,
+      "quality_total_score": 58.400000000000006,
+      "quality_max_score": 116.0,
+      "end_to_end_max_score": 152.0,
+      "quality_score": 0.503448275862069,
+      "end_to_end_score": 0.3842105263157895,
+      "ok_rate": 0.7631578947368421
+    },
+    "reaction_center_identification": {
+      "count": 76,
+      "quality_count": 47,
+      "quality_total_score": 89.2,
+      "quality_max_score": 94.0,
+      "end_to_end_max_score": 152.0,
+      "quality_score": 0.948936170212766,
+      "end_to_end_score": 0.5868421052631579,
+      "ok_rate": 0.618421052631579
+    },
+    "reagent_role_identification": {
+      "count": 112,
+      "quality_count": 43,
+      "quality_total_score": 53.79999999999999,
+      "quality_max_score": 86.0,
+      "end_to_end_max_score": 224.0,
+      "quality_score": 0.625581395348837,
+      "end_to_end_score": 0.24017857142857138,
+      "ok_rate": 0.38392857142857145
+    },
+    "reference_route_planning": {
+      "count": 137,
+      "quality_count": 137,
+      "quality_total_score": 245.99999999999994,
+      "quality_max_score": 548.0,
+      "end_to_end_max_score": 548.0,
+      "quality_score": 0.448905109489051,
+      "end_to_end_score": 0.448905109489051,
+      "ok_rate": 1.0
+    },
+    "route_design": {
+      "count": 13,
+      "quality_count": 12,
+      "quality_total_score": 36.4,
+      "quality_max_score": 48.0,
+      "end_to_end_max_score": 52.0,
+      "quality_score": 0.7583333333333333,
+      "end_to_end_score": 0.7,
+      "ok_rate": 0.9230769230769231
+    },
+    "transformation_classification": {
+      "count": 64,
+      "quality_count": 39,
+      "quality_total_score": 49.400000000000006,
+      "quality_max_score": 78.0,
+      "end_to_end_max_score": 128.0,
+      "quality_score": 0.6333333333333334,
+      "end_to_end_score": 0.38593750000000004,
+      "ok_rate": 0.609375
+    }
+  },
+  "breakdown_by_task_mode": {
+    "constrained_generation": {
+      "count": 420,
+      "quality_count": 412,
+      "quality_total_score": 512.8000000000011,
+      "quality_max_score": 824.0,
+      "end_to_end_max_score": 840.0,
+      "quality_score": 0.62233009708738,
+      "end_to_end_score": 0.6104761904761917,
+      "ok_rate": 0.9809523809523809
+    },
+    "grounding_extraction": {
+      "count": 204,
+      "quality_count": 86,
+      "quality_total_score": 119.80000000000001,
+      "quality_max_score": 172.0,
+      "end_to_end_max_score": 408.0,
+      "quality_score": 0.6965116279069768,
+      "end_to_end_score": 0.29362745098039217,
+      "ok_rate": 0.4215686274509804
+    },
+    "open_planning": {
+      "count": 150,
+      "quality_count": 149,
+      "quality_total_score": 282.3999999999999,
+      "quality_max_score": 596.0,
+      "end_to_end_max_score": 600.0,
+      "quality_score": 0.47382550335570456,
+      "end_to_end_score": 0.4706666666666665,
+      "ok_rate": 0.9933333333333333
+    },
+    "recognition": {
+      "count": 216,
+      "quality_count": 144,
+      "quality_total_score": 196.99999999999983,
+      "quality_max_score": 288.0,
+      "end_to_end_max_score": 432.0,
+      "quality_score": 0.6840277777777772,
+      "end_to_end_score": 0.4560185185185181,
+      "ok_rate": 0.6666666666666666
+    }
+  },
+  "breakdown_by_planning_horizon": {
+    "auxiliary": {
+      "count": 204,
+      "quality_count": 86,
+      "quality_total_score": 119.80000000000001,
+      "quality_max_score": 172.0,
+      "end_to_end_max_score": 408.0,
+      "quality_score": 0.6965116279069768,
+      "end_to_end_score": 0.29362745098039217,
+      "ok_rate": 0.4215686274509804
+    },
+    "local": {
+      "count": 216,
+      "quality_count": 144,
+      "quality_total_score": 196.99999999999983,
+      "quality_max_score": 288.0,
+      "end_to_end_max_score": 432.0,
+      "quality_score": 0.6840277777777772,
+      "end_to_end_score": 0.4560185185185181,
+      "ok_rate": 0.6666666666666666
+    },
+    "route_level": {
+      "count": 150,
+      "quality_count": 149,
+      "quality_total_score": 282.3999999999999,
+      "quality_max_score": 596.0,
+      "end_to_end_max_score": 600.0,
+      "quality_score": 0.47382550335570456,
+      "end_to_end_score": 0.4706666666666665,
+      "ok_rate": 0.9933333333333333
+    },
+    "single_step": {
+      "count": 420,
+      "quality_count": 412,
+      "quality_total_score": 512.8000000000011,
+      "quality_max_score": 824.0,
+      "end_to_end_max_score": 840.0,
+      "quality_score": 0.62233009708738,
+      "end_to_end_score": 0.6104761904761917,
+      "ok_rate": 0.9809523809523809
+    }
+  },
+  "model_name": "gemini-3-flash-preview",
+  "judge_model": "gpt-5.4-mini",
+  "student_output_path": "runs/benchmark_v3_gemini3flash_minimal_sgr/student_output.jsonl",
+  "judge_output_path": "runs/benchmark_v3_gemini3flash_minimal_sgr/judge_gpt54mini/llm_judge_output.jsonl",
+  "student_input_tokens_total": 3814565,
+  "student_output_tokens_total": 1412733,
+  "student_total_tokens_total": 12593577,
+  "student_pricing_usd_per_1m": {
+    "input_per_1m_usd": null,
+    "output_per_1m_usd": null
+  },
+  "judge_pricing_usd_per_1m": {
+    "input_per_1m_usd": null,
+    "output_per_1m_usd": null
+  },
+  "student_estimated_cost_usd": null,
+  "judge_estimated_cost_usd": null,
+  "estimated_cost_usd": null
+}

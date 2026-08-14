@@ -1,0 +1,4 @@
+judge,ge95,75_to_lt95,50_to_lt75,lt50
+GPT-5.4-mini,8,6,0,2
+Gemini 3.1 Flash Lite,4,2,5,5
+Qwen3.6-35B-A3B,1,4,0,11

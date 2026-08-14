@@ -1,0 +1,42 @@
+{
+  "A": {
+    "count": 216,
+    "quality_count": 216,
+    "quality_total_score": 301.40000000000015,
+    "quality_max_score": 432.0,
+    "end_to_end_max_score": 432.0,
+    "quality_score": 0.6976851851851855,
+    "end_to_end_score": 0.6976851851851855,
+    "ok_rate": 1.0
+  },
+  "B": {
+    "count": 420,
+    "quality_count": 380,
+    "quality_total_score": 499.4000000000013,
+    "quality_max_score": 760.0,
+    "end_to_end_max_score": 840.0,
+    "quality_score": 0.6571052631578964,
+    "end_to_end_score": 0.594523809523811,
+    "ok_rate": 0.9047619047619048
+  },
+  "C": {
+    "count": 150,
+    "quality_count": 150,
+    "quality_total_score": 307.1999999999999,
+    "quality_max_score": 600.0,
+    "end_to_end_max_score": 600.0,
+    "quality_score": 0.5119999999999998,
+    "end_to_end_score": 0.5119999999999998,
+    "ok_rate": 1.0
+  },
+  "G": {
+    "count": 204,
+    "quality_count": 204,
+    "quality_total_score": 254.00000000000003,
+    "quality_max_score": 408.0,
+    "end_to_end_max_score": 408.0,
+    "quality_score": 0.6225490196078433,
+    "end_to_end_score": 0.6225490196078433,
+    "ok_rate": 1.0
+  }
+}

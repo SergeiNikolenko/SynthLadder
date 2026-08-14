@@ -1,0 +1,2118 @@
+{
+  "total_rows": 990,
+  "overall_quality_total_score": 1155.0,
+  "overall_quality_max_score": 1812.0,
+  "overall_quality_score": 0.6374172185430463,
+  "overall_end_to_end_score": 0.506578947368421,
+  "judge_input_tokens_total": 2381369,
+  "judge_output_tokens_total": 837951,
+  "judge_total_tokens_total": 3219320,
+  "judge_reasoning_tokens_total": 638087,
+  "judge_requests_total": 794,
+  "judge_tool_calls_total": 0,
+  "reliability_ok_count": 794,
+  "reliability_ok_rate": 0.802020202020202,
+  "infra_error_count": {
+    "agent_step_error": 196
+  },
+  "infra_error_rate": {
+    "agent_step_error": 0.19797979797979798
+  },
+  "errors_sample": [
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00005",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00012",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00174",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00253",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00265",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test_challenging",
+      "question_id": "pmechdb_manual_test_challenging_00277",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the reaction center for the mapped transformation.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemistr"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test",
+      "question_id": "pmechdb_combinatorial_test_03705",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Classify the mechanistic class of the mapped reaction and identify the reaction center.\n\nUse the structured benchmark context below as the full task specificati"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test",
+      "question_id": "pmechdb_combinatorial_test_04912",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Classify the mechanistic class of the mapped reaction and identify the reaction center.\n\nUse the structured benchmark context below as the full task specificati"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test",
+      "question_id": "pmechdb_combinatorial_test_08012",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Classify the mechanistic class of the mapped reaction and identify the reaction center.\n\nUse the structured benchmark context below as the full task specificati"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "pmechdb_test",
+      "question_id": "pmechdb_combinatorial_test_09361",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Classify the mechanistic class of the mapped reaction and identify the reaction center.\n\nUse the structured benchmark context below as the full task specificati"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US07326803B2",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20070072865A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US08318949B2",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20150210699A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20070254882A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20150119405A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20100152192A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20090163512A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20120302566A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20070149546A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US05683623",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US08586208B2",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20060035870A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "uspto_50k_test",
+      "question_id": "uspto_50k_test_US20060217380A1",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the transformation class for the reaction and report the major product.\n\nUse the structured benchmark context below as the full task specification.\nRet"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0602",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0658",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0717",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_train",
+      "question_id": "chemu_ner_train_0892",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_dev",
+      "question_id": "chemu_ner_dev_0184",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "chemu_2020_dev",
+      "question_id": "chemu_ner_dev_0759",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reagent roles and reaction conditions from the procedure text.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_044906",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_2017979",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_2103283",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_2145823",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_2148995",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_2160435",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_2169023",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_2173133",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_2176873",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "choriso_public",
+      "question_id": "choriso_public_2221431",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify the roles of reagents, solvent, and catalyst for the reaction.\n\nUse the structured benchmark context below as the full task specification.\nReturn the b"
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US09856224-20180102",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US09890179-20180213",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US09951019-20180424",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US09957283-20180501",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US09961897-20180508",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US09968087-20180515",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US09969659-20180515",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US09975844-20180522",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US10166296-20190101",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US10167278-20190101",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US10179773-20190115",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US10183923-20190122",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_a",
+      "page_id": "weave2_public",
+      "question_id": "weave2_US10208003-20190219",
+      "answer_type": "reaction_description",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Identify reactants, reagents, solvents, and products from the patent procedure text.\n\nUse the structured benchmark context below as the full task specification."
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0453006",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0400177",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0798984",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0451085",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0560947",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0698218",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0463269",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0363884",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0760409",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0449756",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0833304",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0315979",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0090983",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0118653",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0319356",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0542055",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0188168",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0524164",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0048284",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0283421",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0600855",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0399673",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0914879",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0030246",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0467743",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0730017",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0305308",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0113504",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0267226",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0849499",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0891347",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0098112",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0627923",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0208847",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0876651",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0403580",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0207284",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0173933",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0533270",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0794841",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0906554",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0358160",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0123802",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0482524",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "orderly_test",
+      "question_id": "orderly_retro_test_0645432",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose plausible immediate precursors for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chem"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_0026067",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_0046930",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_0062199",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_0066478",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_0076777",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_0078419",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_0086452",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_0088755",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_0114050",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_0121260",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1030683",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1068425",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1097302",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1124226",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1125978",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1152352",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1161225",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1177390",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1182134",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1186422",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1618500",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1623414",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1636823",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1642130",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1644171",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1650564",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1679236",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1687852",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1698053",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1710750",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_1770829",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2032073",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2061128",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2066520",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2078223",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2081958",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2170008",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2177621",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2186376",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2198631",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2223219",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2508604",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2577389",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2732762",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2784843",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2800250",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2806274",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2806297",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2806428",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2807134",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2813860",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2830828",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2845559",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2876707",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2884318",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_2964885",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_3013877",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_3230562",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_3277349",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_b",
+      "page_id": "paroutes_selected_reactions_all",
+      "question_id": "paroutes_selected_3283125",
+      "answer_type": "text",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Given the product, propose immediate precursors and a plausible disconnection.\n\nUse the structured benchmark context below as the full task specification.\nRetur"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_00177",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_00329",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_00561",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_00778",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_00834",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_00945",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_00957",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_02319",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_04195",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_05459",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_08153",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_08331",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_08370",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_08768",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_08777",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_08787",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_09198",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_09370",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_09397",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_09491",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_09576",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_09759",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n1",
+      "question_id": "paroutes_n1_09867",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n5",
+      "question_id": "paroutes_n5_00536",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n5",
+      "question_id": "paroutes_n5_04904",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n5",
+      "question_id": "paroutes_n5_05180",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n5",
+      "question_id": "paroutes_n5_05262",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n5",
+      "question_id": "paroutes_n5_05588",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n5",
+      "question_id": "paroutes_n5_05771",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n5",
+      "question_id": "paroutes_n5_05796",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n5",
+      "question_id": "paroutes_n5_05983",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n5",
+      "question_id": "paroutes_n5_06117",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n5",
+      "question_id": "paroutes_n5_06148",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n5",
+      "question_id": "paroutes_n5_06379",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/home/nikolenko/work/Projects/SpectralixBenchmark_gemini_20260423_rsync/spectralix_benchmark",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n5",
+      "question_id": "paroutes_n5_06652",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n5",
+      "question_id": "paroutes_n5_09220",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "paroutes_n5",
+      "question_id": "paroutes_n5_09913",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Propose a multi-step synthesis route for the target molecule.\n\nUse the structured benchmark context below as the full task specification.\nReturn the best chemis"
+    },
+    {
+      "exam_id": "benchmark_v3_c",
+      "page_id": "benchmark_v1_0_pilot_internal",
+      "question_id": "exam_3/7",
+      "answer_type": "full_synthesis",
+      "student_status": "agent_step_error",
+      "student_error": "model returned empty final answer",
+      "question_text_preview": "Provide the synthesis of the following product in two steps from methylcyclopentane by determining the structures of A, В, С. CC1CCCC1 + {box_A} = {box_B}, {box"
+    }
+  ],
+  "taxonomy_version": "benchmark_taxonomy",
+  "core_suites": [
+    "A",
+    "B",
+    "C"
+  ],
+  "auxiliary_suites": [
+    "G"
+  ],
+  "macro_depth_quality_score": 0.6442774470899473,
+  "macro_depth_end_to_end_score": 0.5182566137566139,
+  "auxiliary_grounding_quality_score": 0.6497142857142861,
+  "auxiliary_grounding_end_to_end_score": 0.5573529411764709,
+  "breakdown_by_suite": {
+    "A": {
+      "count": 216,
+      "quality_count": 192,
+      "quality_total_score": 295.80000000000007,
+      "quality_max_score": 384.0,
+      "end_to_end_max_score": 432.0,
+      "quality_score": 0.7703125000000002,
+      "end_to_end_score": 0.6847222222222223,
+      "ok_rate": 0.8888888888888888
+    },
+    "B": {
+      "count": 420,
+      "quality_count": 315,
+      "quality_total_score": 384.2000000000004,
+      "quality_max_score": 630.0,
+      "end_to_end_max_score": 840.0,
+      "quality_score": 0.6098412698412704,
+      "end_to_end_score": 0.45738095238095283,
+      "ok_rate": 0.75
+    },
+    "C": {
+      "count": 150,
+      "quality_count": 112,
+      "quality_total_score": 247.5999999999999,
+      "quality_max_score": 448.0,
+      "end_to_end_max_score": 600.0,
+      "quality_score": 0.5526785714285712,
+      "end_to_end_score": 0.4126666666666665,
+      "ok_rate": 0.7466666666666667
+    },
+    "G": {
+      "count": 204,
+      "quality_count": 175,
+      "quality_total_score": 227.40000000000015,
+      "quality_max_score": 350.0,
+      "end_to_end_max_score": 408.0,
+      "quality_score": 0.6497142857142861,
+      "end_to_end_score": 0.5573529411764709,
+      "ok_rate": 0.8578431372549019
+    }
+  },
+  "breakdown_by_subtrack": {
+    "A1": {
+      "count": 140,
+      "quality_count": 120,
+      "quality_total_score": 218.59999999999997,
+      "quality_max_score": 240.0,
+      "end_to_end_max_score": 280.0,
+      "quality_score": 0.9108333333333332,
+      "end_to_end_score": 0.7807142857142856,
+      "ok_rate": 0.8571428571428571
+    },
+    "A2": {
+      "count": 76,
+      "quality_count": 72,
+      "quality_total_score": 77.19999999999997,
+      "quality_max_score": 144.0,
+      "end_to_end_max_score": 152.0,
+      "quality_score": 0.536111111111111,
+      "end_to_end_score": 0.5078947368421051,
+      "ok_rate": 0.9473684210526315
+    },
+    "B1": {
+      "count": 210,
+      "quality_count": 165,
+      "quality_total_score": 213.59999999999997,
+      "quality_max_score": 330.0,
+      "end_to_end_max_score": 420.0,
+      "quality_score": 0.6472727272727272,
+      "end_to_end_score": 0.5085714285714285,
+      "ok_rate": 0.7857142857142857
+    },
+    "B2": {
+      "count": 210,
+      "quality_count": 150,
+      "quality_total_score": 170.59999999999985,
+      "quality_max_score": 300.0,
+      "end_to_end_max_score": 420.0,
+      "quality_score": 0.5686666666666662,
+      "end_to_end_score": 0.4061904761904758,
+      "ok_rate": 0.7142857142857143
+    },
+    "C2": {
+      "count": 137,
+      "quality_count": 100,
+      "quality_total_score": 210.39999999999998,
+      "quality_max_score": 400.0,
+      "end_to_end_max_score": 548.0,
+      "quality_score": 0.5259999999999999,
+      "end_to_end_score": 0.383941605839416,
+      "ok_rate": 0.7299270072992701
+    },
+    "C3": {
+      "count": 13,
+      "quality_count": 12,
+      "quality_total_score": 37.2,
+      "quality_max_score": 48.0,
+      "end_to_end_max_score": 52.0,
+      "quality_score": 0.775,
+      "end_to_end_score": 0.7153846153846154,
+      "ok_rate": 0.9230769230769231
+    },
+    "G1": {
+      "count": 112,
+      "quality_count": 93,
+      "quality_total_score": 119.59999999999998,
+      "quality_max_score": 186.0,
+      "end_to_end_max_score": 224.0,
+      "quality_score": 0.643010752688172,
+      "end_to_end_score": 0.5339285714285713,
+      "ok_rate": 0.8303571428571429
+    },
+    "G2": {
+      "count": 92,
+      "quality_count": 82,
+      "quality_total_score": 107.79999999999997,
+      "quality_max_score": 164.0,
+      "end_to_end_max_score": 184.0,
+      "quality_score": 0.6573170731707315,
+      "end_to_end_score": 0.5858695652173911,
+      "ok_rate": 0.8913043478260869
+    }
+  },
+  "breakdown_by_task_subtype": {
+    "condition_role_identification": {
+      "count": 92,
+      "quality_count": 82,
+      "quality_total_score": 107.79999999999997,
+      "quality_max_score": 164.0,
+      "end_to_end_max_score": 184.0,
+      "quality_score": 0.6573170731707315,
+      "end_to_end_score": 0.5858695652173911,
+      "ok_rate": 0.8913043478260869
+    },
+    "immediate_precursor_prediction": {
+      "count": 210,
+      "quality_count": 165,
+      "quality_total_score": 213.59999999999997,
+      "quality_max_score": 330.0,
+      "end_to_end_max_score": 420.0,
+      "quality_score": 0.6472727272727272,
+      "end_to_end_score": 0.5085714285714285,
+      "ok_rate": 0.7857142857142857
+    },
+    "immediate_precursor_with_disconnection": {
+      "count": 210,
+      "quality_count": 150,
+      "quality_total_score": 170.59999999999985,
+      "quality_max_score": 300.0,
+      "end_to_end_max_score": 420.0,
+      "quality_score": 0.5686666666666662,
+      "end_to_end_score": 0.4061904761904758,
+      "ok_rate": 0.7142857142857143
+    },
+    "mechanistic_classification": {
+      "count": 76,
+      "quality_count": 72,
+      "quality_total_score": 77.19999999999997,
+      "quality_max_score": 144.0,
+      "end_to_end_max_score": 152.0,
+      "quality_score": 0.536111111111111,
+      "end_to_end_score": 0.5078947368421051,
+      "ok_rate": 0.9473684210526315
+    },
+    "reaction_center_identification": {
+      "count": 76,
+      "quality_count": 70,
+      "quality_total_score": 129.79999999999998,
+      "quality_max_score": 140.0,
+      "end_to_end_max_score": 152.0,
+      "quality_score": 0.927142857142857,
+      "end_to_end_score": 0.8539473684210526,
+      "ok_rate": 0.9210526315789473
+    },
+    "reagent_role_identification": {
+      "count": 112,
+      "quality_count": 93,
+      "quality_total_score": 119.59999999999998,
+      "quality_max_score": 186.0,
+      "end_to_end_max_score": 224.0,
+      "quality_score": 0.643010752688172,
+      "end_to_end_score": 0.5339285714285713,
+      "ok_rate": 0.8303571428571429
+    },
+    "reference_route_planning": {
+      "count": 137,
+      "quality_count": 100,
+      "quality_total_score": 210.39999999999998,
+      "quality_max_score": 400.0,
+      "end_to_end_max_score": 548.0,
+      "quality_score": 0.5259999999999999,
+      "end_to_end_score": 0.383941605839416,
+      "ok_rate": 0.7299270072992701
+    },
+    "route_design": {
+      "count": 13,
+      "quality_count": 12,
+      "quality_total_score": 37.2,
+      "quality_max_score": 48.0,
+      "end_to_end_max_score": 52.0,
+      "quality_score": 0.775,
+      "end_to_end_score": 0.7153846153846154,
+      "ok_rate": 0.9230769230769231
+    },
+    "transformation_classification": {
+      "count": 64,
+      "quality_count": 50,
+      "quality_total_score": 88.79999999999998,
+      "quality_max_score": 100.0,
+      "end_to_end_max_score": 128.0,
+      "quality_score": 0.8879999999999998,
+      "end_to_end_score": 0.6937499999999999,
+      "ok_rate": 0.78125
+    }
+  },
+  "breakdown_by_task_mode": {
+    "constrained_generation": {
+      "count": 420,
+      "quality_count": 315,
+      "quality_total_score": 384.2000000000004,
+      "quality_max_score": 630.0,
+      "end_to_end_max_score": 840.0,
+      "quality_score": 0.6098412698412704,
+      "end_to_end_score": 0.45738095238095283,
+      "ok_rate": 0.75
+    },
+    "grounding_extraction": {
+      "count": 204,
+      "quality_count": 175,
+      "quality_total_score": 227.40000000000015,
+      "quality_max_score": 350.0,
+      "end_to_end_max_score": 408.0,
+      "quality_score": 0.6497142857142861,
+      "end_to_end_score": 0.5573529411764709,
+      "ok_rate": 0.8578431372549019
+    },
+    "open_planning": {
+      "count": 150,
+      "quality_count": 112,
+      "quality_total_score": 247.5999999999999,
+      "quality_max_score": 448.0,
+      "end_to_end_max_score": 600.0,
+      "quality_score": 0.5526785714285712,
+      "end_to_end_score": 0.4126666666666665,
+      "ok_rate": 0.7466666666666667
+    },
+    "recognition": {
+      "count": 216,
+      "quality_count": 192,
+      "quality_total_score": 295.80000000000007,
+      "quality_max_score": 384.0,
+      "end_to_end_max_score": 432.0,
+      "quality_score": 0.7703125000000002,
+      "end_to_end_score": 0.6847222222222223,
+      "ok_rate": 0.8888888888888888
+    }
+  },
+  "breakdown_by_planning_horizon": {
+    "auxiliary": {
+      "count": 204,
+      "quality_count": 175,
+      "quality_total_score": 227.40000000000015,
+      "quality_max_score": 350.0,
+      "end_to_end_max_score": 408.0,
+      "quality_score": 0.6497142857142861,
+      "end_to_end_score": 0.5573529411764709,
+      "ok_rate": 0.8578431372549019
+    },
+    "local": {
+      "count": 216,
+      "quality_count": 192,
+      "quality_total_score": 295.80000000000007,
+      "quality_max_score": 384.0,
+      "end_to_end_max_score": 432.0,
+      "quality_score": 0.7703125000000002,
+      "end_to_end_score": 0.6847222222222223,
+      "ok_rate": 0.8888888888888888
+    },
+    "route_level": {
+      "count": 150,
+      "quality_count": 112,
+      "quality_total_score": 247.5999999999999,
+      "quality_max_score": 448.0,
+      "end_to_end_max_score": 600.0,
+      "quality_score": 0.5526785714285712,
+      "end_to_end_score": 0.4126666666666665,
+      "ok_rate": 0.7466666666666667
+    },
+    "single_step": {
+      "count": 420,
+      "quality_count": 315,
+      "quality_total_score": 384.2000000000004,
+      "quality_max_score": 630.0,
+      "end_to_end_max_score": 840.0,
+      "quality_score": 0.6098412698412704,
+      "end_to_end_score": 0.45738095238095283,
+      "ok_rate": 0.75
+    }
+  },
+  "model_name": "gemini-3-flash-preview",
+  "judge_model": "gpt-5.4-mini",
+  "student_output_path": "runs/benchmark_v3_gemini3flash_minimal_no-sgr/student_output.jsonl",
+  "judge_output_path": "runs/benchmark_v3_gemini3flash_minimal_no-sgr/judge_gpt54mini/llm_judge_output.jsonl",
+  "student_input_tokens_total": 1381517,
+  "student_output_tokens_total": 849361,
+  "student_total_tokens_total": 17843322,
+  "student_pricing_usd_per_1m": {
+    "input_per_1m_usd": null,
+    "output_per_1m_usd": null
+  },
+  "judge_pricing_usd_per_1m": {
+    "input_per_1m_usd": null,
+    "output_per_1m_usd": null
+  },
+  "student_estimated_cost_usd": null,
+  "judge_estimated_cost_usd": null,
+  "estimated_cost_usd": null
+}

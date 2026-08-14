@@ -1,0 +1,22 @@
+aggregation,rank,system_configuration,score_percent
+SuiteMacro,1,GPT-5.4,68.165
+SuiteMacro,2,GPT-5.4-mini,66.099
+SuiteMacro,3,Gemini 3.1 Pro,59.229
+SuiteMacro,4,GLM-5.1,56.911
+SuiteMacro,5,Gemini 3 Flash,50.868
+SuiteMacro,6,Qwen3.6-35B-A3B,26.814
+SuiteMacro,7,GPT-OSS,12.375
+Micro773,1,GPT-5.4,68.577
+Micro773,2,GPT-5.4-mini,67.814
+Micro773,3,Gemini 3.1 Pro,60.388
+Micro773,4,GLM-5.1,57.503
+Micro773,5,Gemini 3 Flash,50.789
+Micro773,6,Qwen3.6-35B-A3B,23.713
+Micro773,7,GPT-OSS,12.549
+SubtypeMacro6,1,GPT-5.4-mini,71.262
+SubtypeMacro6,2,GPT-5.4,70.827
+SubtypeMacro6,3,Gemini 3.1 Pro,63.291
+SubtypeMacro6,4,GLM-5.1,60.577
+SubtypeMacro6,5,Gemini 3 Flash,55.905
+SubtypeMacro6,6,Qwen3.6-35B-A3B,34.729
+SubtypeMacro6,7,GPT-OSS,16.572

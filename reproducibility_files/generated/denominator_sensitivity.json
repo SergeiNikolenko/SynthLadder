@@ -1,0 +1,51 @@
+[
+  {
+    "system_configuration": "GPT-5.4",
+    "end_to_end_suite_macro_percent": 68.165,
+    "native_output_complete_case_suite_macro_percent": 68.165,
+    "rescue_inclusive_suite_macro_percent": null,
+    "native_output_denominator_note": "suite means recomputed after removing candidate failures and cross-configuration replacements within each suite"
+  },
+  {
+    "system_configuration": "GPT-5.4-mini",
+    "end_to_end_suite_macro_percent": 66.099,
+    "native_output_complete_case_suite_macro_percent": 68.967,
+    "rescue_inclusive_suite_macro_percent": 68.749,
+    "native_output_denominator_note": "suite means recomputed after removing candidate failures and cross-configuration replacements within each suite"
+  },
+  {
+    "system_configuration": "Gemini 3.1 Pro",
+    "end_to_end_suite_macro_percent": 59.229,
+    "native_output_complete_case_suite_macro_percent": 61.315,
+    "rescue_inclusive_suite_macro_percent": null,
+    "native_output_denominator_note": "suite means recomputed after removing candidate failures and cross-configuration replacements within each suite"
+  },
+  {
+    "system_configuration": "GLM-5.1",
+    "end_to_end_suite_macro_percent": 56.911,
+    "native_output_complete_case_suite_macro_percent": 56.955,
+    "rescue_inclusive_suite_macro_percent": null,
+    "native_output_denominator_note": "suite means recomputed after removing candidate failures and cross-configuration replacements within each suite"
+  },
+  {
+    "system_configuration": "Gemini 3 Flash",
+    "end_to_end_suite_macro_percent": 50.868,
+    "native_output_complete_case_suite_macro_percent": 63.538,
+    "rescue_inclusive_suite_macro_percent": null,
+    "native_output_denominator_note": "suite means recomputed after removing candidate failures and cross-configuration replacements within each suite"
+  },
+  {
+    "system_configuration": "Qwen3.6-35B-A3B",
+    "end_to_end_suite_macro_percent": 26.814,
+    "native_output_complete_case_suite_macro_percent": 26.814,
+    "rescue_inclusive_suite_macro_percent": null,
+    "native_output_denominator_note": "suite means recomputed after removing candidate failures and cross-configuration replacements within each suite"
+  },
+  {
+    "system_configuration": "GPT-OSS",
+    "end_to_end_suite_macro_percent": 12.375,
+    "native_output_complete_case_suite_macro_percent": 12.375,
+    "rescue_inclusive_suite_macro_percent": null,
+    "native_output_denominator_note": "suite means recomputed after removing candidate failures and cross-configuration replacements within each suite"
+  }
+]

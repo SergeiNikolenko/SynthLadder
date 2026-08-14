@@ -1,0 +1,10 @@
+{
+  "comparison": "GPT-5.4 minus GPT-5.4-mini",
+  "metric": "SuiteMacro",
+  "difference_pp": 2.066,
+  "ci95_low_pp": -0.257,
+  "ci95_high_pp": 4.366,
+  "bootstrap_draws": 20000,
+  "seed": 42,
+  "uncertainty_scope": "paired item resampling within six task subtypes"
+}

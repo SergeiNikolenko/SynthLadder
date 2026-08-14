@@ -1,0 +1,26 @@
+[
+  {
+    "selected_task": "A1b",
+    "n": 41,
+    "exact_agreement_n": 33,
+    "within_two_points_n": 39,
+    "mean_absolute_difference": 0.585,
+    "quadratic_weighted_cohen_kappa": 0.555
+  },
+  {
+    "selected_task": "B1",
+    "n": 22,
+    "exact_agreement_n": 9,
+    "within_two_points_n": 15,
+    "mean_absolute_difference": 2.273,
+    "quadratic_weighted_cohen_kappa": 0.429
+  },
+  {
+    "selected_task": "Overall",
+    "n": 63,
+    "exact_agreement_n": 42,
+    "within_two_points_n": 54,
+    "mean_absolute_difference": 1.175,
+    "quadratic_weighted_cohen_kappa": 0.499
+  }
+]

@@ -1,0 +1,19 @@
+analysis_set,judge,path,score_method,rows
+canonical no-SGR,GPT-5.4-mini,runs/benchmark_v3_gemini31pro_minimal_no-sgr/judge_gpt54mini/llm_judge_output.jsonl,g_eval,732
+canonical no-SGR,GPT-5.4-mini,runs/benchmark_v3_gemini31pro_minimal_no-sgr/judge_gpt54mini/llm_judge_output.jsonl,missing,40
+canonical no-SGR,GPT-5.4-mini,runs/benchmark_v3_gemini31pro_minimal_no-sgr/judge_gpt54mini/llm_judge_output.jsonl,structured_fallback,1
+canonical no-SGR,GPT-5.4-mini,runs/benchmark_v3_gemini3flash_minimal_no-sgr/judge_gpt54mini/llm_judge_output.jsonl,g_eval,607
+canonical no-SGR,GPT-5.4-mini,runs/benchmark_v3_gemini3flash_minimal_no-sgr/judge_gpt54mini/llm_judge_output.jsonl,missing,166
+canonical no-SGR,GPT-5.4-mini,runs/benchmark_v3_glm51_minimal_no-sgr/judge_gpt54mini/llm_judge_output.jsonl,g_eval,771
+canonical no-SGR,GPT-5.4-mini,runs/benchmark_v3_glm51_minimal_no-sgr/judge_gpt54mini/llm_judge_output.jsonl,missing,1
+canonical no-SGR,GPT-5.4-mini,runs/benchmark_v3_glm51_minimal_no-sgr/judge_gpt54mini/llm_judge_output.jsonl,structured_fallback,1
+canonical no-SGR,GPT-5.4-mini,runs/benchmark_v3_gpt54_tools_no-sgr/gpt-5.4/judge_gpt54mini/llm_judge_output.jsonl,g_eval,773
+GPT-5.4 SGR judge comparison,Gemini 3.1 Flash Lite,runs/benchmark_v3_gpt54_tools_sgr/gpt-5.4/judge_gemini31flashlite/llm_judge_output.jsonl,g_eval,773
+GPT-5.4 SGR judge comparison,GPT-5.4-mini,runs/benchmark_v3_gpt54_tools_sgr/gpt-5.4/judge_gpt54mini/llm_judge_output.jsonl,g_eval,772
+GPT-5.4 SGR judge comparison,GPT-5.4-mini,runs/benchmark_v3_gpt54_tools_sgr/gpt-5.4/judge_gpt54mini/llm_judge_output.jsonl,structured_fallback,1
+GPT-5.4 SGR judge comparison,Qwen3.6-35B-A3B,runs/benchmark_v3_gpt54_tools_sgr/gpt-5.4/judge_qwen36_35b_a3b/llm_judge_output.jsonl,g_eval,602
+GPT-5.4 SGR judge comparison,Qwen3.6-35B-A3B,runs/benchmark_v3_gpt54_tools_sgr/gpt-5.4/judge_qwen36_35b_a3b/llm_judge_output.jsonl,llm_judge,170
+GPT-5.4 SGR judge comparison,Qwen3.6-35B-A3B,runs/benchmark_v3_gpt54_tools_sgr/gpt-5.4/judge_qwen36_35b_a3b/llm_judge_output.jsonl,structured_fallback,1
+canonical no-SGR,GPT-5.4-mini,runs/benchmark_v3_gpt54mini_tools_no-sgr/gpt-5.4-mini/judge_gpt54mini/llm_judge_output.jsonl,g_eval,773
+canonical no-SGR,GPT-5.4-mini,runs/benchmark_v3_gptoss_tools_no-sgr/judge_gpt54mini/llm_judge_output.jsonl,g_eval,773
+canonical no-SGR,GPT-5.4-mini,runs/benchmark_v3_qwen36_35b_a3b_minimal_no-sgr/judge_gpt54mini/llm_judge_output.jsonl,g_eval,773

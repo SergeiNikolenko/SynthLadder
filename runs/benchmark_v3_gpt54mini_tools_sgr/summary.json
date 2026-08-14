@@ -1,0 +1,26 @@
+[
+  {
+    "model_name": "gpt-5.4-mini",
+    "total_rows": 990,
+    "overall_quality_total_score": 1573.4,
+    "overall_quality_max_score": 2280.0,
+    "overall_quality_score": 0.6900877192982456,
+    "overall_end_to_end_score": 0.6900877192982456,
+    "macro_depth_quality_score": 0.701038800705468,
+    "macro_depth_end_to_end_score": 0.701038800705468,
+    "auxiliary_grounding_quality_score": 0.6916666666666669,
+    "auxiliary_grounding_end_to_end_score": 0.6916666666666669,
+    "judge_input_tokens_total": 3005044,
+    "judge_output_tokens_total": 1053372,
+    "judge_total_tokens_total": 4058416,
+    "judge_reasoning_tokens_total": 803394,
+    "judge_requests_total": 990,
+    "judge_tool_calls_total": 0,
+    "reliability_ok_count": 990,
+    "reliability_ok_rate": 1.0,
+    "infra_error_count": {},
+    "infra_error_rate": {},
+    "judge_model": "gpt-5.4-mini",
+    "metrics_path": "runs/benchmark_v3_gpt54mini_tools_sgr/gpt-5.4-mini/metrics.json"
+  }
+]

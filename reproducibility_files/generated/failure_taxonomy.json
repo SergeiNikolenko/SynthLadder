@@ -1,0 +1,79 @@
+[
+  {
+    "system_configuration": "GPT-5.4",
+    "frozen_rows": 773,
+    "candidate_error_rows": 0,
+    "candidate_empty_rows": 0,
+    "judge_missing_after_nonempty_answer": 0,
+    "cross_model_replacement_rows": 0,
+    "usable_stored_scores": 773,
+    "native_scored_rows": 773,
+    "candidate_status_counts": "ok=773"
+  },
+  {
+    "system_configuration": "GPT-5.4-mini",
+    "frozen_rows": 773,
+    "candidate_error_rows": 0,
+    "candidate_empty_rows": 0,
+    "judge_missing_after_nonempty_answer": 0,
+    "cross_model_replacement_rows": 27,
+    "usable_stored_scores": 773,
+    "native_scored_rows": 746,
+    "candidate_status_counts": "ok=773"
+  },
+  {
+    "system_configuration": "Gemini 3.1 Pro",
+    "frozen_rows": 773,
+    "candidate_error_rows": 40,
+    "candidate_empty_rows": 40,
+    "judge_missing_after_nonempty_answer": 0,
+    "cross_model_replacement_rows": 0,
+    "usable_stored_scores": 733,
+    "native_scored_rows": 733,
+    "candidate_status_counts": "agent_step_error=40; ok=733"
+  },
+  {
+    "system_configuration": "GLM-5.1",
+    "frozen_rows": 773,
+    "candidate_error_rows": 1,
+    "candidate_empty_rows": 1,
+    "judge_missing_after_nonempty_answer": 0,
+    "cross_model_replacement_rows": 0,
+    "usable_stored_scores": 772,
+    "native_scored_rows": 772,
+    "candidate_status_counts": "agent_step_error=1; ok=772"
+  },
+  {
+    "system_configuration": "Gemini 3 Flash",
+    "frozen_rows": 773,
+    "candidate_error_rows": 166,
+    "candidate_empty_rows": 166,
+    "judge_missing_after_nonempty_answer": 0,
+    "cross_model_replacement_rows": 0,
+    "usable_stored_scores": 607,
+    "native_scored_rows": 607,
+    "candidate_status_counts": "agent_step_error=166; ok=607"
+  },
+  {
+    "system_configuration": "Qwen3.6-35B-A3B",
+    "frozen_rows": 773,
+    "candidate_error_rows": 0,
+    "candidate_empty_rows": 0,
+    "judge_missing_after_nonempty_answer": 0,
+    "cross_model_replacement_rows": 0,
+    "usable_stored_scores": 773,
+    "native_scored_rows": 773,
+    "candidate_status_counts": "ok=773"
+  },
+  {
+    "system_configuration": "GPT-OSS",
+    "frozen_rows": 773,
+    "candidate_error_rows": 0,
+    "candidate_empty_rows": 0,
+    "judge_missing_after_nonempty_answer": 0,
+    "cross_model_replacement_rows": 0,
+    "usable_stored_scores": 773,
+    "native_scored_rows": 773,
+    "candidate_status_counts": "ok=773"
+  }
+]

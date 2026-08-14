@@ -1,0 +1,8 @@
+system_configuration,end_to_end_suite_macro_percent,native_output_complete_case_suite_macro_percent,rescue_inclusive_suite_macro_percent,native_output_denominator_note
+GPT-5.4,68.165,68.165,,suite means recomputed after removing candidate failures and cross-configuration replacements within each suite
+GPT-5.4-mini,66.099,68.967,68.749,suite means recomputed after removing candidate failures and cross-configuration replacements within each suite
+Gemini 3.1 Pro,59.229,61.315,,suite means recomputed after removing candidate failures and cross-configuration replacements within each suite
+GLM-5.1,56.911,56.955,,suite means recomputed after removing candidate failures and cross-configuration replacements within each suite
+Gemini 3 Flash,50.868,63.538,,suite means recomputed after removing candidate failures and cross-configuration replacements within each suite
+Qwen3.6-35B-A3B,26.814,26.814,,suite means recomputed after removing candidate failures and cross-configuration replacements within each suite
+GPT-OSS,12.375,12.375,,suite means recomputed after removing candidate failures and cross-configuration replacements within each suite

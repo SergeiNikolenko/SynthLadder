@@ -1,0 +1,2 @@
+comparison,metric,difference_pp,ci95_low_pp,ci95_high_pp,bootstrap_draws,seed,uncertainty_scope
+GPT-5.4 minus GPT-5.4-mini,SuiteMacro,2.066,-0.257,4.366,20000,42,paired item resampling within six task subtypes

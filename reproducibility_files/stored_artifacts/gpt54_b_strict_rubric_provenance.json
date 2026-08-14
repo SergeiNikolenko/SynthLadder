@@ -1,0 +1,14 @@
+{
+  "artifact": "gpt54_b_strict_rubric_scores.csv",
+  "source_repository": "https://github.com/SergeiNikolenko/SynthLadder",
+  "source_commit": "3cab5d6d76e7e36907c037f29b4813451fef1eb0",
+  "source_path": "runs/benchmark_v3_gpt54_tools_no-sgr/gpt-5.4/llm_judge_output.jsonl",
+  "source_file_sha256": "f21287bcd69f1f777f8b4ba7cacad934ead70d3c41bf3e6dca95a2debac6ff32",
+  "derivation": "B1/B2 composite keys and numeric judge fields extracted without model inference",
+  "rows": 420,
+  "task_counts": {
+    "B1": 210,
+    "B2": 210
+  },
+  "chemical_payload_included": false
+}

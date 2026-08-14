@@ -1,0 +1,34 @@
+[build-system]
+requires = ["hatchling>=1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "synthladder"
+version = "0.1.0"
+description = "Benchmark and evaluation tooling for chemistry-focused AI systems"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "openai>=1.3.0",
+  "tqdm>=4.65.0",
+  "openshell>=0.0.20",
+  "pydantic-ai-slim[openai,evals]>=1.0.5",
+  "ddgs>=9.9.1",
+  "PyYAML>=6.0.0",
+  "rdkit>=2025.9.6",
+]
+
+[project.scripts]
+synthladder-student = "synthladder.evaluation.cli.student_validation:main"
+synthladder-judge = "synthladder.evaluation.cli.llm_judge:main"
+synthladder-matrix = "synthladder.evaluation.cli.run_full_matrix:main"
+synthladder-materialize = "synthladder.evaluation.materialize_benchmark_v3_eval:main"
+synthladder-build-levels = "synthladder.build.level_benchmark_files:main"
+synthladder-build-paper-eval = "synthladder.build.paper_eval_subsets:main"
+synthladder-build = "synthladder.build.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["synthladder"]
+
+[tool.uv]
+package = true
